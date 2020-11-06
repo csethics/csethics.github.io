@@ -1,7 +1,7 @@
-baseurl = "https://uvatoc.github.io/"
+baseurl = "https://csethics.github.io/"
 languageCode = "en-us"
-title = "Theory of Computation"
-subtitle = "UVA CS 3102 Fall 2019"
+title = "Everyday Ethics and Quotidian Quandries for Computer Scientists"
+subtitle = "UVA CS 3501 Spring 2021"
 copyright = ""
 theme = "toc"
 
@@ -11,7 +11,8 @@ paginatePath = "page"
 pageNotFoundTitle = "Not Found"
 pageNotFoundDetail = "Your request cannot be resolved in the current axiomatic system. This could be because you have discovered a contradiction to Cantor's Continuum Hypothesis, but it is most likely a bad link or mistyped URL. If its a broken link, please let us know."
 
-# disqusShortname = "evans1629"
+[markup.goldmark.renderer]
+unsafe= true
 
 [permalinks]
     post = "/:slug/"
@@ -26,12 +27,10 @@ pageNotFoundDetail = "Your request cannot be resolved in the current axiomatic s
     #    email = "evans@virginia.edu"
 
 [params]
-    brand = "Theory of Computation"
-    topline = "Theory of Computation"
-    footline = "<p align=\"center\">CS 3102 | University of Virginia, Fall 2019 | <a href=\"http://www.cs.virginia.edu/~njb2b/\">Nathan Brunelle</a> and <a href=\"https://www.cs.virginia.edu/evans\">David Evans</a></p>"
+    brand = "Everyday Ethics for Computer Scientists"
+    topline = "Everyday Ethics for Computer Scientists"
+    footline = "<p align=\"center\">CS 3501 | University of Virginia, Spring 2021 | <a href=\"https://www.cs.virginia.edu/evans\">David Evans</a></p>"
     sidebar = "left"
-    # googleAnalytics = "UA-3775212-1"
-
     nodate = true
     noauthor = true
     noread = true
