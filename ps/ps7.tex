@@ -1,0 +1,214 @@
+\documentclass[11pt]{article}
+\usepackage{uvatoc} % replace this line with the one below for your submission
+%\usepackage[response]{uvatoc}
+
+\begin{document}
+
+\makeheader
+
+\makemytitle{Problem Set 7: $\class{P} \subsetneq \class{NP}$?}
+
+\submitter{TODO: replace this with your name (and computing id)}
+\due{7:29pm Tuesday, 26 November 2019}
+
+\directions{
+%TODO: update
+This assignment focuses on the material in
+Classes 17--21 and textbook 
+\href{https://uvatoc.github.io/docs/tcs-chapter11.pdf}{Chapter 11},
+\href{https://uvatoc.github.io/docs/tcs-chapter12.pdf}{Chapter 12},
+\href{https://uvatoc.github.io/docs/tcs-chapter13.pdf}{Chapter 13}, and 
+\href{https://uvatoc.github.io/docs/tcs-chapter14.pdf}{Chapter 14}. This is a lot of material (although we only cover a few small parts of Chapter 11 and 12), so this problem set is longer than previous problem sets (and you have more time for it).
+
+\collaboration{You should do this assignment by yourself and submit your own answers. You may discuss the problems with anyone you want and it is also fine to get help from anyone on problems with LaTeX or debugging your Turing machine code. You are permitted to use any resources you find for this assignment. You should note in the {\em Collaborators and Resources} box below the people you collaborated with and any external resources you used.}
+}
+
+\collaborators{TODO: replace this with your collaborators and resources (if you did not have any, replace this with {\em None})}
+
+\directions{
+This problem set does not include any Jupyter notebook components. As with previous problem sets, the first thing you should do in \keyword{ps7.tex} is set up your name as the author of the submission by replacing the line, \texttt{\textbackslash submitter\{TODO: your name\}}, with your name and UVA id, e.g., \texttt{\textbackslash submitter\{Stephen Cook (sac0np)\}}. Before submitting your PDF, also remember to (1) list your collaborators and resources, replacing the TODO in {\texttt{\textbackslash collaborators\{TODO: replace ...\}}}, and (2) replace the second line in \keyword{ps7.tex}, \texttt{\textbackslash usepackage\{uvatoc\}} with \texttt{\textbackslash usepackage[response]\{uvatoc\}} so the directions do not appear in your final PDF.
+}
+
+\begin{problem}
+Rice's Theorem {\rm (Deferred from Problem Set 6)}
+\end{problem}
+
+\directions{
+For each subproblem, indicate whether Rice's Theorem applies. If it applies, answer if the problem is computable or uncomputable. If it does not apply, just indicated that it doesn't apply (it is not necessary to determine whether or not it is computable if Rice's theorem does not apply).
+}
+
+\begin{enumerate}[(a)]
+    \item Given the description of a Turing Machine, does that machine always return 0.
+    \item Given the description of a Turing Machine, does that machine always return 1 when it receives no input.
+    \item Given the description of a Turing Machine, does that machine ever use more than 10,000 cells on its tape.
+    \item Given the description of a Turing Machine, is the language of that machine recognizable.
+    \item Given the description of a Turing Machine, does the Turing machine have exactly 50 states.
+\end{enumerate}
+
+\directions{\clearpage}
+
+\begin{problem}
+Running Time Analysis
+\end{problem}
+
+Consider the \emph{INCREMENT} problem defined below:
+\begin{quote}
+    {\bf Input:} A natural number, $x$, encoded using binary representation with \emph{least significant bit first}. 
+    
+    {\bf Output:} A binary encoding, least significant bit first, of $x + 1$.
+\end{quote}
+
+\begin{enumerate}[(a)]
+\item Characterize using asymptotic notation the \emph{average} running time cost for solving \emph{INCREMENT}, where cost is the number of steps required by a standard Turing Machine. 
+
+\item Characterize using asymptotic notation the \emph{worst-case} running time cost for solving \emph{INCREMENT}, where cost is the number of steps required by a standard Turing Machine. (You should be able to get a tight bound using $\Theta$ notation. Use $n$ to represent the size of the input in your answer.)
+
+\item Does your answer to either sub-question change if the input and output are represented using \emph{most significant bit first}?
+\end{enumerate}
+
+\begin{problem}
+$\mathit{TIME}_{TM}$ to increment
+\end{problem}
+
+Define the $\mathit{Inc}$ function as $\forall x, y \in \mathbb{N}: \mathit{Inc}(x, y) = (y = x + 1)$ where $x$ and $y$ are represented as binary numbers using most significant bit first, separated by a $\mathsf{\#}$ symbol.
+
+For example,
+$\mathit{Inc}(\mathsf{0\#1}) = 1$, 
+$\mathit{Inc}(\mathsf{1\#11}) = 0$,
+$\mathit{Inc}(\mathsf{101111000100\#101111000101}) = 1$.
+
+We use the definition of $\mathit{TIME}_{TM}$ from Definition 12.1 in the TCS book, so the $n$ in the equations below is from that definition. 
+
+\begin{enumerate}
+\item Define a $f(n)$ such that $Inc \in \mathit{TIME}_{TM}(f(n))$ but $Inc \notin \mathit{TIME}_{TM}(\frac{1}{2}\sqrt{f(n)})$. Support your answer with a convincing argument.
+
+\item ($\star\star$) Does there exist a function, $f(n)$, such that, for sufficiently large $n$, $Inc \in \mathit{TIME}_{TM}(f(n))$ but $Inc \notin \mathit{TIME}_{TM}(f(n) - 1)$? 
+\end{enumerate}
+
+
+\begin{problem} 
+TIME for RAM and TM 
+\end{problem}
+
+Theorem 12.5 shows that $\mathit{TIME}_{TM}(T(n)) \subseteq \mathit{TIME}_{RAM}(10 \cdot T(n))$ for all functions $T: \mathbb{N} \rightarrow \mathbb{N}$ such that $\forall n: T(n) \ge n$ and an additional constraint on the ability of a TM to compute $T$ in $O(T(n))$. Show that for \emph{some} $T(n)$ that satisfies the necessary constraints, the stronger property that
+$\mathit{TIME}_{TM}(T(n)) \subsetneq \mathit{TIME}_{RAM}(T(n))$ is true. That is, show that there is a function that can be computed by a RAM machine within $T(n)$ steps, but cannot be computed by any TM within $T(n)$ steps. 
+
+\begin{problem}
+Polynomial-Time Reductions
+\end{problem}
+
+For each sub-problem, indicated if the state proposition is {\bf True} or {\bf False}, and provide a brief (one or two sentences) justification for your answer.
+
+We use the notations in the book: let $F,G:\{0,1\}^* \rightarrow \{0,1\}^{*}$. We say that $F$ reduces to $G$, denoted by $F \leq_p G$, if there is a polynomial-time computable $R:\{0,1\}^{*} \rightarrow \{0,1\}^{*}$ such that for every $x\in \{0,1\}^{*}$, $F(x) = G(R(x))$.
+
+\begin{enumerate}[(a)]
+    \item $F \leq_p G$ and $G \in \mathbf{P}$ implies $F \in \mathbf{P}$.
+    \item $F \leq_p G$ and $F \in \mathbf{P}$ implies $G \in \mathbf{P}$.
+    \item $F \leq_p G$ and $G \in \mathbf{EXP}$ implies $F \in \mathbf{EXP}$.
+    \item $F \leq_p G$ and $G \leq_p F$ implies $F \in \mathbf{P}$.
+    \item $F \leq_p G$ and $G$ is computable implies $F$ is computable.
+    \item $F \leq_p G$ and $F$ is computable implies $G$ is computable.
+    \item $F \leq_p G$ and $G \in \mathit{TIME_{TM}}(O(n^2))$ implies $F \in \mathit{TIME_{TM}}(O(n^2))$.
+    \item $F \leq_p F$ (Hint: use the definition of $\leq_p$ to show this is always True for any $F$.)
+\end{enumerate}
+
+\begin{problem}
+Silly Reductions
+\end{problem}
+
+Consider the $\mathit{SORTING}$ and $\mathit{MINIMUM}$ problems defined below:
+
+\begin{quote}
+\emph{SORTING} \\
+{\bf Input:} A list of $n$ natural numbers, $x_1, x_2, x_3, \ldots, x_n$.
+
+{\bf Output:} An ordering of the input list, $x_{i_1}, x_{i_2}, \ldots, x_{i_n}$ where $\{ i_1 \} \cup \{ i_ 2\} \cup \ldots \{ i_n \} = \{ 1, 2, \ldots, n \}$ and for all $k \in \{ 1, 2, \ldots, n - 1 \}$, $x_{i_k} \le x_{i_{k + 1}}$.
+    
+\vspace{1ex}
+
+\emph{MINIMUM} \\
+{\bf Input:} A list of $n$ natural numbers, $x_1, x_2, x_3, \ldots, x_n$.
+
+{\bf Output:} A member, $x_m$, such that $x_m \in \{ x_1, x_2, \ldots, x_n\}$ and for all $k \in \{1, 2, \ldots, n\}$, $x_m \le x_k$.
+    
+\end{quote}
+\begin{enumerate}[(a)]
+\item Show that $\mathit{MINIMUM} \leq_p \mathit{SORTING}$.
+
+\item Show that $\mathit{SORTING} \leq_p \mathit{MINIMUM}$.
+
+\item Does this mean that $\mathit{MINIMUM}$ and $\mathit{SORTING}$ are equivalently hard problems?
+
+\end{enumerate}
+
+\begin{problem}
+Jeffersonian Paths
+\end{problem}
+
+\directions{
+The Hamlitonian Path problem (not named after Alexander), defined below, is known to be $\class{NP}$-complete.
+
+\begin{quote}
+\emph{HAMILTONIAN PATH} \\
+{\bf Input:} A description of an undirected, finite graph, $G = (V, E)$.
+
+{\bf Output:} {\bf True} if there exists a path in $G$ that visits each vertex in $V$ exactly once; otherwise {\bf False}.
+\end{quote}
+
+Despite his declarations to the contrary, Jefferson does not consider all vertices equal, and defines the \emph{JEFFERSONIAN PATH} problem as:
+
+\begin{quote}
+\emph{JEFFERSONIAN PATH} \\
+{\bf Input:} A description of an undirected, finite graph, $G = (V, E)$, and a partitioning of $V$ into two subsets $V_1$ and $V_2$ such that $V_1 \cup V_2 = V$ and $V_1 \cap V_2 = \emptyset$.
+
+{\bf Output:} {\bf True} if there exists a path in $G$ that visits each vertex in $V$ exactly once, where all vertices in $V_1$ are visited before any vertex in $V_2$; otherwise {\bf False}.
+\end{quote}
+
+Prove \emph{JEFFERSONIAN PATH} is $\class{NP}$-complete.
+}
+
+\begin{problem}
+Genome Assembly
+\end{problem}
+
+In order to assemble a genome, it is necessary to combine snippets from many reads into a single sequence. The input is a set of $n$ genome snippets,
+each of which is a string of up to $k$ symbols. The output is the smallest single string that contains all of the input snippets as substrings. For example, if the input is ${\mathsf{ACCAGAATACC}, \mathsf{TCCAGAATAA}, \mathsf{TACCCGTGATCCA}}$
+the output should be $\mathsf{ACCAGAATACCCGTGATCCAGAATAA}$:
+\begin{verbatim}
+    ACCAGAATACC
+                    TCCAGAATAA
+           TACCCGTGATCCA
+\end{verbatim}
+
+\begin{enumerate}[(a)]
+\item Prove that the genome assembly problem is in $\class{NP}$.
+\item Prove that the genome assembly problem is $\class{NP}$-Complete.
+\item On June 26, 2000, President Clinton, Francis Collins (CLAS 1970), and Craig Venter announced completion of the Human Genome project and a complete sequence of the human genome. The human genome is about 3 Billion base pairs long. Readers at the time were able to read about 700 bases per read fragment, and sequencing the genome involved aligning about 30 million fragments. What problem had they actually solved?
+\end{enumerate}
+
+\begin{problem}
+Simpson's Math
+\end{problem}
+
+Watch this video of Simon Singh talking about $\class{P}$ and $\class{NP}$: \url{https://www.youtube.com/watch?v=dJUEkjxylBw}.
+
+Clearly identify at least one clear and fundamental technical misunderstanding in his explanation.
+
+
+
+
+\begin{problem} 
+Turing Machines and Concrete Computers
+\end{problem}
+
+\begin{enumerate}[(a)]
+\item Give three reasons why a Turing Machine is better than the computer you are typing on now.
+\item Give three reasons why the computer you are typing on now is better than a Turing Machine.
+\end{enumerate}
+
+
+\begin{center}
+{\bf End of Problem Set 7} \\
+\end{center}
+
+\end{document}

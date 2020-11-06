@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+\usepackage{uvatoc}
+% For your submission, you will comment the line above, and uncomment the one below:
+%\usepackage[response]{uvatoc}
+
+\begin{document}
+
+\makeheader
+
+\makemytitle{Week 1: (Un)Natural Numbers --- Write-Up}
+
+\submitter{TODO: Cohort Name (names of all who contributed)}
+
+\collaborators{TODO: Replace with any additional collaborators and non-course resources you used}
+
+\directions{
+This is a template to help with your write-up for Week 1. The actual problem you will write up will be selected by your Cohort Leader at the Assessed Cohort Meeting.
+}
+
+\directions{
+
+\section{Getting Started with LaTeX}
+
+For the post cohort write-ups in this class, you will be required to submit your responses as PDF files typeset with LaTeX\footnote{To Quote Leslie Lamport (the creator LaTeX) ``One of the hardest things about LaTeX is deciding how to pronounce it. This is also one of the few things I'm not going to tell you about LaTeX, since pronunciation is best determined by usage, not fiat. TeX is usually pronounced teck, making lah-teck, and lay-teck the logical choices; but language is not always logical, so lay-tecks is also possible.''}, a professional formatting system that is used in most serious mathematical typesetting, which is a set of libraries built on the TeX typesetting language developed by Donald Knuth.
+
+If you haven't used LaTeX before, there is a bit of a learning curve to using it, but you will find the ability it gives you to efficiently produce beautiful and complex documents to be a valuable life-long skill. We recommend using \hyperlink{www.overleaf.com}{Overleaf}, an in-browser collaborative editor for LaTeX. You can create a document shared with all the students in your cohort, and use that to work together to produce a clear, convincing, and elegant write-up of your solution.
+
+\subsection{Register for Overleaf}
+
+Visit \url{https://www.overleaf.com} and register for an Overleaf account (if you don't already have one). UVA has a site license to Overleaf, so if you register with your \keyword{@virginia.edu} email address you will have full access to all the Overleaf features for free.  
+
+\subsection{Clone the Problem Set 1 Template Repository}
+
+One member of your cohort should create a copy of the Problem Set 1 repository, by following these steps (we recommend doing this together, with the one creating the repository sharing her screen for everyone to follow along):
+
+\begin{enumerate}
+\item Download the Problem Set 1 template from: \url{https://uvatoc.github.io/ps/ps1.zip}
+\item In Overleaf, click on \keyword{Create First Project} or \keyword{New Project} in Overleaf and select \keyword{Upload Project} from the menu.
+\item Click \keyword{Select a .zip file} and then select the \keyword{ps1.zip} file you downloaded in step 1.
+\item Share the repository with your cohortmates by clicking the "Share" button at the top right of the overleaf window, and entering your cohortmates email addresses in the sharing form.
+\end{enumerate}
+
+In the left side of the browser, you should see a file directory containing \keyword{ps1.tex}, the template you will modify to provide your write-up, and \keyword{uvatoc.sty}, a style file that defines useful macros for cs3102 (you are welcome to look at this file, but should not need to modify it).
+
+Click on \keyword{ps1.tex} to see the LaTeX source for this file.
+
+Click \keyword{Recompile} to build the PDF. You should see this document in the right side of the browser.
+
+\subsection{Editing ps1.tex}
+
+The first thing you should do in \keyword{ps1.tex} is set up your cohort name as the author of the submission by replacing the line, \texttt{\textbackslash submitter\{TODO: your name\}}, with your the name of your cohort (e.g., \texttt{\textbackslash submitter\{Cohort Hopper (Ada Lovelace, Don Knuth)\}}). For the list of cohort members, this should usually be everyone in your cohort, but if someone did not contribute during the week, they should not be included in your submission list (and should have informed us about their absence separately).
+
+Then, try rebuilding the PDF by clicking \keyword{Recompile}. You should see a file that includes your name and collaborators, but with all the directions removed (we don't want to see these again in your submission).
+
+There are many guides to getting started using LaTeX, but we think you will mostly find it easiest to just learn from what you see in the templates. Overleaf's documentation is quite good. If you want an organized introduction, try \href{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}{\em Learn LaTeX in 30 minutes}.
+
+Before submitting your \keyword{ps1.pdf} file, also remember to:
+\begin{itemize}
+\item List your collaborators and resources, replacing the TODO in {\texttt{\textbackslash collaborators\{TODO: replace ...\}}} with your collaborators and resources. You do not need to include
+
+\item Replace the second line in \keyword{ps1.tex}, \texttt{\textbackslash usepackage\{uvatoc\}} with \texttt{\textbackslash usepackage[response]\{uvatoc\}} so the directions do not appear in your final PDF. You can do this by using the LaTeX comment token, {\texttt{\%}}. The rest of the line after a {\texttt{\%}} is treated as a comment. You'll notice after you to this, when you Recompile the document, most of it will disappear (everything in \keyword{\textbackslash directions} is left out, so only your solution will appear in the submitted document).
+\end{itemize}
+}
+
+\stepcounter{problem}  % skip Problem 1: Cohortuctions
+\stepcounter{problem}  % skip Problem 2: Cohort Namesake
+
+\begin{problem}
+Higher Induction Practice
+\end{problem}
+\directions{
+Prove that any binary tree of height $h$ has at most $2^{h-1}$ leaves.
+
+Note: We haven't defined a \emph{binary tree} (and the book doesn't). An adequate answer to this question will use the informal understanding of a binary tree which we expect you have entering this class (a tree where each node has 0, 1, or 2 children), but an excellent answer will include a definition of a binary tree and connect your proof to that definition. 
+}
+
+% \fi % ends the \iffalse
+
+% if you are not answering Problem 4, uncomment the line below and the \fi after the problem
+% \stepcounter{problem} \iffalse
+
+\begin{problem}
+Addition is Commutative 
+\end{problem}
+
+\directions{
+
+For this problem, we will use the successor definition of Natural Numbers from the \href{https://youtu.be/RKWRv9E0Kwc}{\emph{Constructing the Natural Numbers}} video:
+
+\begin{definition}[Natural Numbers]
+\normalfont 
+We define the \emph{Natural Numbers} as:
+\begin{enumerate}
+\item {\bf 0} is a Natural Number.
+\item If $n$ is a Natural Number, {\bf S}($n$) is a Natural Number.
+\end{enumerate}
+\end{definition}
+We will use this definition of addition (from \href{https://youtu.be/IFLyT-JTNt4}{\emph{Defining Addition}}):
+\begin{definition}[Sum]
+\normalfont
+The \emph{sum} of two Natural Numbers $a$ and $b$ (denoted as $a + b$) is defined as:
+\begin{enumerate}
+\item If $a$ is $\textbf{0}$, then $a + b$ is $b$.
+\item Otherwise, $a$ is $\textbf{S}(p)$ for some Natural Number $p$, and $a + b$ is $\textbf{S}(p + b)$.
+\end{enumerate}
+\end{definition}
+
+Prove that addition (as defined above) is \emph{commutative} (that is, for all Natural Numbers $a$ and $b$, $a + b$ is $b + a$). 
+
+Note that what ``is'' means here is they are exactly the same representation (we are not using $=$, since we haven't defined it for our number representation). You can think of all the operations we have defined as just manipulating strings of symbols, and ``$x$ is $y$'' meaning that $x$ and $y$ are exactly the same sequences of symbols.
+}
+
+\begin{problem}Countable Programs\end{problem}
+\directions{
+Prove that the set of all Python programs that you can execute on your laptop is \emph{countable}.
+}
+
+\begin{problem}Powerset Proof\end{problem}
+\directions{
+The \href{https://youtu.be/l0tYF9QrWag}{\emph{Countable Sets}} video set up a proof by induction that, for all \emph{finite} sets $S$, $|\text{pow}(S)| = 2^{|S|}$, and we provided our \href{https://uvatoc.github.io/docs/powerset.pdf}{proof}. For this problem, you are expected to understand that proof well, and be able to answer questions about it during the assessed cohort meeting such as (but not limited to) ``what is the predicate, $P$?'', ``explain step 1 of the Inductive Case?'', ``why is the base case the empty set?''.
+}
+
+\end{document}

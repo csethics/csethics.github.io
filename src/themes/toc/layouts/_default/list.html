@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="row">
+  <div class="column small-12">
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+    {{ partial "post-summary" . }}
+    {{ end }}
+    {{ partial "pagination" . }}
+  </div>
+</div>
+{{ end }}

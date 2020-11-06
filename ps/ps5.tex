@@ -1,0 +1,224 @@
+\documentclass[11pt]{article}
+\usepackage{uvatoc} % replace this line with the one below for your submission
+%\usepackage[response]{uvatoc}
+
+\begin{document}
+
+\makeheader
+
+\makemytitle{Problem Set 5: Loopy Tunes}
+
+\submitter{TODO: replace this with your name (and computing id)}
+\due{4:19pm Friday, 25 October 2019}
+
+\directions{
+This assignment focuses on the material in \href{https://uvatoc.github.io/docs/tcs-chapter6.pdf}{Chapter 6} of the textbook, as well as finite state machines from \href{https://uvatoc.github.io/class12}{Class 12} and \href{https://uvatoc.github.io/class13}{Class 13}. The textbook covers finite automata in Chapter 9, and there are many other sources for this material, but you should be able to understand enough from what we have done in class to answer the questions on this assignment without needing to consult other material.
+
+\collaboration{You should do this assignment by yourself and submit your own answers. You may discuss the problems with anyone you want and it is also fine to get help from anyone on problems with LaTeX or debugging your Turing machine code. You are permitted to use any resources you find for this assignment. You should note in the {\em Collaborators and Resources} box below the people you collaborated with and any external resources you used.}
+}
+
+\collaborators{TODO: replace this with your collaborators and resources (if you did not have any, replace this with {\em None})}
+
+\directions{
+This problem set does not include any Jupyter notebook components, but does include some problems using an \href{http://morphett.info/turing/turing.html}{on-line Turing Machine simulator}. As with previous problem sets, the first thing you should do in \keyword{p54.tex} is set up your name as the author of the submission by replacing the line, \texttt{\textbackslash submitter\{TODO: your name\}}, with your name and UVA id, e.g., \texttt{\textbackslash submitter\{Alan Turing (amt01z)\}}. Before submitting your PDF, also remember to (1) list your collaborators and resources, replacing the TODO in {\texttt{\textbackslash collaborators\{TODO: replace ...\}}}, and (2) replace the second line in \keyword{ps4.tex}, \texttt{\textbackslash usepackage\{uvatoc\}} with \texttt{\textbackslash usepackage[response]\{uvatoc\}} so the directions do not appear in your final PDF.
+}
+
+\subsection*{Size Hierarchy}
+
+\begin{problem}
+Understanding the Size Hierarchy Proof
+\end{problem}
+
+\directions{
+The proof of the Size Hierarchy Theorem (Theorem 5.5 in the book, and Class 12) defined a sequence of functions, $f_0, f_1, \ldots$: 
+
+$$ f_i(x) = \begin{cases} f^*(x) & lex(x)< i \\
+ 0 & \text{otherwise} \end{cases}  
+$$
+where $f^*$ is some hard function, which we don't need to define but know must exist for sufficiently large $n$ because of the number of functions in $\mathit{SIZE}(s)$.
+}
+
+\begin{enumerate}[(a)]
+    \item Prove that when $f^*(i) = 0$, $f_{i+1} = f_i$. That is, the two functions denoted by $f_{i + 1}$ and $f_i$ are actually the same function. 
+    
+    \item Explain why this is not a problem for the proof.
+\end{enumerate}
+
+\begin{problem}
+Finer Hierarchy
+\end{problem}
+
+\directions{
+The Size Hierarchy Theorem says that for every sufficiently large $n$ and $10n < s < 0.1 \cdot 2^n / n$, $SIZE_n(s) \subsetneq SIZE_n(s+10n)$ (where $SIZE_n(s)$ was the set of all $n$-input boolean functions that can be implemented with $s$ or fewer $NAND$ gates). The need for the $10n$, means this does not tell us if, for a given $s$, $SIZE_n(s) \subsetneq SIZE_n(s+1)$. As computer scientists, we should be a bit bothered by this. (Make sure you understand what the proof method used to show the theorem resulted in this $10n$ term.)
+}
+
+\begin{enumerate}[(a)]
+
+\item Prove that $SIZE_2(1) \subsetneq SIZE_2(2)$.
+
+\item Prove that for some $1 < s < 10$, $SIZE_2(s) = SIZE_2(s + 1)$.
+
+%\item ($\star$) Prove that for some $10n < s < 0.1 \cdot 2^n/n$ and some $n \in \mathbb{N}$, $SIZE_n(s) = SIZE_n(s + 1)$.
+
+\end{enumerate}
+
+\subsection*{Programming Turing Machines}
+
+For this problem, you will use the Turing Machine simulator available at 
+\url{http://morphett.info/turing/turing.html}. Before trying the problem, play around with the examples that are provided there (if you have a lot of time on your hands, try the 5-state Busy Beaver here: \url{http://morphett.info/turing/turing.html?60b2d45a91bff93bead8e9fa13aadd9a}) to get a feel for how the simulator works and what Turing Machine programs are like.
+
+\begin{problem}
+Warm up: Implementing XOR
+\end{problem}
+
+\directions{
+Write a Turing Machine program that implements the infinite XOR machine from \href{https://uvatoc.github.io/class12}{Class 12}. Note that we implemented this in class using a Finite Automaton, so you can solve this problem by converting that to a Turing Machine, where the input is given on the initial tape. Your machine should end in the "halt-accept" state if the input has an odd number of {\tt 1} symbols, and end in the "halt" state if the input has an even number of {\tt 1} symbols. You can submit your answer by just cut-and-pasting the code from your machine into the verbatim block below.
+}
+
+\begin{verbatim}
+; State 0:
+0 0 0 r 0  ; you don't need to use this, but it is meant to be a useful hint
+;; complete with your code
+
+0 _ _ * halt ; reject if you end in state 0
+
+;; complete with your code
+    
+\end{verbatim}
+
+\begin{problem}
+IsRepeat
+\end{problem}
+
+\directions{
+Define a Turing Machine that implements the function $\mathit{IsRepeat}$ defined for any input $x \in \{0, 1\}^*$ by:
+
+$$
+\mathit{IsRepeat}(x) = \begin{cases*}
+                1 & \text{if there exists a $w\in \{0, 1\}^*$ such that $x = ww$}\\
+                0 & \text{otherwise}
+        \end{cases*}
+$$
+
+For example, $\mathit{IsRepeat}(\mathtt{0}) = 0$, 
+$\mathit{IsRepeat}(\mathtt{00}) = 1$,
+$\mathit{IsRepeat}(\mathtt{011011}) = 1$, and
+$\mathit{IsRepeat}(\mathtt{0111011}) = 0$. The machine your define should end in state "halt" if the output of $\mathit{IsRepeat}$ is 0, and in state "halt-accept" if the output of $\mathit{IsRepeat}$ is 1.
+}
+
+\begin{problem}
+Limits of Finite State Automata
+\end{problem}
+
+\directions{
+For each subproblem below, indicate if there is a Finite State Automaton that can compute the given function. You do not need to provide a formal proof, but should provide a short justification for your answer. 
+
+For all problems, you can assume there is a way to encode the input for the Turing Machine. For example, if there are multiple inputs, they would be separated by a special symbol $\mathtt{\#}$ on the input tape to distinguish them.
+}
+
+\begin{enumerate}[(a)]
+\item for $x \in \{\mathtt{0}, \mathtt{1}\}^*$, 
+$$
+\mathit{OR}(x) =  \begin{cases*}
+                1 & \text{if there exists a $\mathtt{1}$ in $x$}\\
+                0 & \text{otherwise}
+        \end{cases*}
+$$ 
+\item $\mathit{IsRepeat}$ (as defined in the previous problem)
+
+\item for $x \in \{\mathtt{0}, \mathtt{1}\}^*$,
+$$
+\mathit{CoolEnough}(x) =  \begin{cases*}
+                1 & \text{if $x$ contains at least 3102 $\mathtt{1}$ symbols}\\
+                0 & \text{otherwise}
+        \end{cases*}
+$$
+\item for $w \in \{\mathtt{0}, \mathtt{1}\}^*, x \in \{\mathtt{0}, \mathtt{1}\}^*$,
+$$
+\mathit{WayCool}(w, x) =  \begin{cases*}
+                1 & \text{if $x$ contains at least $\mathit{val}(w)$ symbols, }\\
+                0 & \text{otherwise}
+        \end{cases*}
+$$
+where $\mathit{val}(w)$ is the value of $w$ interpreted as a binary number.
+
+\item for $x \in \{\mathtt{0}, \mathtt{1}\}^*$,
+$$
+\mathit{WahooWa}(x) =  \begin{cases*}
+                1 & \text{if UVA will beat Virginia Tech in both cybersecurity and football in 2019, }\\
+                0 & \text{otherwise}
+        \end{cases*}
+$$
+\end{enumerate}
+
+\subsection*{Power of NAND-TM}
+
+The NAND-TM language is defined by adding both loops and arrays to NAND-CIRC. For the next two problems, we consider the impact of adding either just loops or just arrays to NAND-CIRC.
+
+\begin{problem}
+Is NAND-LOOP more powerful than NAND-CIRC? % backwards?
+\end{problem}
+
+\directions{
+Define the language NAND-LOOP as NAND-CIRC plus the {\sf MODANDJUMP} instruction. Are there any functions that NAND-LOOP can compute that cannot be computed by NAND-CIRC?
+
+(A good answer will either provide a proof that the languages are equivalent in power, or show that there exists a function which can be computed by NAND-LOOP but not by NAND-CIRC.)
+}
+
+\directions{\clearpage}
+\begin{problem}
+Is NAND-ARRAY more powerful than NAND-CIRC?
+\end{problem}
+
+\directions{
+Define the language NAND-ARRAY as NAND-CIRC plus the special integer variable {\tt i} and array variables (that is, with everything in the first four bullets of the description of NAND-TM in Section 6.2.1, but without {\sf MODANDJUMP}. Instead, we add two instructions to NAND-CIRC:
+\begin{itemize}
+\item {\sf CINC} \emph{v} takes a regular variable as its input, and if the value of \emph{v} is 1 it updates the value of {\tt i} to be {\tt i}$ + 1$. Otherwise (when \emph{v} is 0), it does not do anything.
+
+\item {\sf CDEC} \emph{v} takes a regular variable as its input, and if the value of \emph{v} is 1 it updates the value of {\tt i} to be $max(\mathtt{i} - 1, 0)$. Otherwise, it does not do anything.
+\end{itemize}
+}
+
+\begin{problem}
+Define a language that extends NAND-CIRC, which is more powerful (in an interesting way) than NAND-CIRC, but less powerful (in an interesting way) than NAND-TM.
+\end{problem}
+
+\directions{
+One way to interpret ``in an interesting way'' is that your language should be able to implement an infinite set of functions that cannot be implemented by NAND-CIRC, but there should be an infinite set of functions that NAND-TM can implement which cannot be implemented in your language.
+}
+
+\begin{center}
+{\bf End of Problem Set 5} \\
+\end{center}
+
+\subsection*{Deferred Problems}
+
+The two problems below were originally included in Problem Set 5, but since it took longer than we expected to cover computability in class, we are deferring these to Problem Set 6. (If you've already complete these, great! Just save your solutions to paste into PS6; the exact same problems will be included in the next problem set.)
+
+\begin{problem}
+Prove that the Busy Beaver Problem (defined in Class 14 and below) is uncomputable.
+\end{problem}
+
+\directions{
+Define the the Busy Beaver Problem as:
+\begin{definition}[Busy Beaver Problem]
+For any $n \in \mathbb{N}$, define $\mathit{BB}_2(n)$ as the maximum number of steps for which a Turing Machine with $n$ states and 2 symbols can execute and halt, starting from a blank tape.
+\end{definition}
+
+Your proof could show that assuming a Turing Machine that can solve the Busy Beaver problem (that is, output the correct value of $\mathit{BB}_2(n)$ for any input $n \in \mathbb{N}$, leads to a contradiction (that it, it would allow for a TM that can compute some problem we know is undecidable).
+}
+
+\begin{problem}
+Prove that the Busy Boa Problem (defined below) is uncomputable.
+\end{problem}
+
+\directions{
+Define the the Busy Boa Problem as:
+\begin{definition}[Busy Boa Problem]
+For any $n \in \mathbb{N}$, define $\mathit{BOA}(n)$ as the largest integer that a idealized Python function implemented using at most $n$ characters, and which takes no input, can return (and halt).
+\end{definition}
+
+The \emph{idealized Python} language is the Python language you are familiar with, but without any arbitrary limits. So, for example, it provides a {\tt +} operation that works on all natural numbers, unlike any actual Python implementation which can only implement {\tt +} for a subset of $\mathbb{N}$.
+}
+
+\end{document}

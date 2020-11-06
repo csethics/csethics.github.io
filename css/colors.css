@@ -1,0 +1,36 @@
+:root {
+	--bg-color:            #111; /* background of whole site */
+	--highlight-color:     #222; /* hr, 2nth row */
+	--primary-color:       #eee; /* text color */
+
+	--bside-color:         #222; /* sidebar, break box dashes */
+	--tb-color:            #222; /* navbar? + bottom empty space, break box background */
+	--sp-color:            #000; /* footer */
+	--inverse-color:       #eee; /* footer text */
+	--inverse-light-color: #eee; /* footer link underline */
+}
+
+.content { background: black }
+
+/** ddg searchbox **/
+
+input[type='search'] { background-color: var(--bg-color) }
+
+/** table stuff **/
+
+table thead, table tfoot, table tbody {
+	background-color: var(--bg-color);
+	color: var(--primary-color);
+}
+
+table tbody tr:nth-child(2n) { background-color: var(--highlight-color) }
+
+/** recoloring hard-colored stuff (only really applies to table stuff) **/
+
+[color='blue'] { color: #77f }
+[color='red']  { color: #f77 }
+[color='#ccc'] { color: #333 }
+
+[bgcolor='lightblue']   { background-color: #55f }
+[bgcolor='lightyellow'] { background-color: #551 }
+[bgcolor='#111']        { background-color: #eee }

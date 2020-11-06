@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Class 4: Uncountability | Theory of Computation</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/foundation.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/fonts.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/finite.css">
+    <link rel="shortcut icon" href="/images/uva.png">  
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="https://uvatoc.github.io/">Theory of Computation</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+
+
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="https://uvatoc.github.io/">Theory of Computation</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+
+
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+<div class="row" style="padding-top: 16pt;">
+  <div class="column small-12 medium-10 medium-offset-1 end large-8 large-offset-0">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+      
+      <h1 itemprop="name">Class 4: Uncountability</h1>
+      <div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-09-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">9 September 2019</time> by David Evans
+  </span>
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <h2 id="_what-cannot-be-represented-by-bits_-uncountable-sets"><em>What Cannot Be Represented by Bits?</em> (Uncountable Sets)</h2>
+<p><strong>Schedule Reminders:</strong> <a href="/ps1">Problem Set 1</a> is due this Friday (4:19pm).  See <a href="/schedule">the schedule</a> for updated office hours.</p>
+<p><a href="https://www.dropbox.com/s/w6rpp6rgwx5ycl5/class4-share.pdf?dl=0">Slides (PDF)</a><br>
+<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b644143d-a3dc-4165-a524-aac30140f096">Video</a></p>
+<p>Here is Cantor&rsquo;s original proof (in German, but the math is universal, so somewhat understandable even without knowing German):</p>
+<p>Georg Cantor, <a href="/docs/cantor-proof.pdf"><em>Ueber eine elementare Frage der Mannigfaltigkeitslehre</em></a>. Published in <em>Jahresbericht der Deutschen Mathematiker-Vereinigung</em>, Volume 1, 1891. (<a href="https://jeffersonswheel.org/cantors-no-longer-lost-proof/">About this Scan</a>)</p>
+<p>Its only a bit over 2 pages long, and its easy to see Cantor&rsquo;s answer
+to the ``Is 0 a Natural Number?&rsquo;&rsquo; question without understanding any
+German.  Google translates the title as <em>On an elementary question of
+the theory of manifolds</em>.</p>
+<p>Barrow&rsquo;s <a href="https://www.amazon.com/Infinite-Book-Boundless-Timeless-Endless/dp/1400032245/"><em>The Infinite
+Book</em></a>
+has chapter on the sad life of Georg Cantor: <a href="/docs/madness-of-cantor.pdf"><em>The Madness of Georg
+Cantor</em></a>.</p>
+<p>We went through the proof that the binary strings are uncountable
+pretty quickly, and this is definitely a mind-blowing result. If you
+are not bothered by this result, its probably because you aren&rsquo;t
+thinking about things deeply enough. Some other recommended
+presentations of these topics include:</p>
+<ul>
+<li>
+<p>Vi Hart video&rsquo;s on <a href="https://www.youtube.com/watch?v=lA6hE7NFIK0"><em>Proof some infinities are bigger than other infinities</em></a> and <a href="https://www.youtube.com/watch?v=23I5GS4JiDg"><em>How many kinds of infinity are there?</em></a> (sample youtube comment: <em>watching this makes me feel like i&rsquo;ve just taken the red pill and the blue pill, crushed them into a single, purple powder and snorted it</em>).</p>
+</li>
+<li>
+<p>Numberphile&rsquo;s, <a href="https://www.youtube.com/watch?v=elvOZm0d4H0%5D"><em>Infinity is bigger than you think</em></a>.</p>
+</li>
+<li>
+<p>You can also see how Prof. Mahmoody and I covered this in <a href="https://uvacs2102.github.io">cs2102</a> over these three classes (which overlaps a fair bit with what we&rsquo;ve done in cs3102, but with more detail and examples): <a href="https://uvacs2102.github.io/class17/">Class 17: Infinite Sets</a> [<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1b0b99bc-7623-457f-b5d2-73fb64c22c83">Video</a>],
+<a href="https://uvacs2102.github.io/class18/">Class 18: Spooky Infinities</a> [<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2aa2b9e6-e148-4239-a4bf-5ad963643514">Video</a>], <a href="https://uvacs2102.github.io/class19/">Class 19: Reviewing Infinities</a> [<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8af6f263-4e0b-4cf7-9378-96bdbf7fc8ac">Video</a>].</p>
+</li>
+</ul>
+
+      </div>
+
+      <meta itemprop="wordCount" content="277">
+      <meta itemprop="datePublished" content="2019-09-09">
+      <meta itemprop="url" content="https://uvatoc.github.io/class4/">
+    </article>
+
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      
+      <li class="arrow" aria-disabled="true"><a href="https://uvatoc.github.io/ps1/">&laquo; <em>Previous<span class="show-for-sr"> page</span></em>: PS1 Posted</a></li>
+      
+      
+      <li class="arrow" aria-disabled="true"><a href="https://uvatoc.github.io/class5/"><em>Next<span class="show-for-sr"> page</span></em>: Class 5: Defining Computation&nbsp;&raquo;</a></li>
+      
+    </ul>
+
+  </div>
+</div>
+
+    </main>
+    
+    
+<footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <a href="//uvatoc.github.io"><b>cs 3102: Theory of Computation</b></a><br>
+      <a href="//www.cs.virginia.edu">University of Virginia</a>
+    </div>
+    <div class="column small-14 medium-5">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="https://uvatoc.github.io/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+  </hr>
+</footer>
+
+
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

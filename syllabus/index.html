@@ -1,0 +1,583 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Syllabus | Theory of Computation</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/foundation.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/fonts.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/finite.css">
+    <link rel="shortcut icon" href="/images/uva.png">  
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="https://uvatoc.github.io/">Theory of Computation</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+
+
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="https://uvatoc.github.io/">Theory of Computation</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+
+
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+
+<div class="content">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+      <h1 itemprop="name" class="pagetitle">Syllabus</h1>
+      <div class="post-body" itemprop="articleBody">
+        <h1 id="overview">Overview</h1>
+<p><strong>Course Description:</strong> The goal of this course is to understand the
+fundamental limits on what can be efficiently computed in our
+universe and other possible (or imaginary) universes. These limits
+reveal deep and mysterious properties about information,
+communication, and computing, as well as practical issues about how
+to solve problems.</p>
+<p>Two fundamental questions about any problem are:</p>
+<ol>
+<li><em>Can it be solved using a machine of a certain type?</em> (computability)</li>
+<li><em>How much does it cost to solve it?</em> (complexity)</li>
+</ol>
+<p>We explore these questions by developing abstract models of computing
+machines and reasoning about what they can and cannot compute
+efficiently.  We will also look at some applications in cryptography
+that take advantage of problems being hard to solve, and what can be
+done when a problem cannot be solved or is too expensive to solve.</p>
+<p><strong>Course Objectives:</strong> Students who complete the course will:</p>
+<ul>
+<li>
+<p>Improve their <a href="https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e">mathematical thinking skill and
+habits</a>,
+including thinking precisely about definitions, stating assumptions
+carefully, critically reading arguments, and being able to write
+convincingly.</p>
+</li>
+<li>
+<p>Be able to understand both finite and infinite formal models of computation and to reason about what they can and cannot compute.</p>
+</li>
+<li>
+<p>Understand both intuitively and formally what makes some problems too expensive to solve, and what can be done in practice when an unsolvable or intractable problem is encountered.</p>
+</li>
+<li>
+<p>Reason formally about the cost of computation, and be able to prove useful bounds on the costs of solving problems, including showing that certain problems are intractable.</p>
+</li>
+<li>
+<p>Learn about some interesting aspects of theoretical computer science, including cryptography and machine learning.</p>
+</li>
+</ul>
+<p><strong>Class Meetings:</strong> The course is officially scheduled for Mondays and
+Wednesdays, 3:30-4:45pm. We will use this time for a full class
+welcome meeting on the first day of the course, Wednesday, 26
+August. For subsequent weeks, students will have cohort meetings (see
+<a href="#cohorts">details below</a>).</p>
+<p><strong>Pandemic.</strong> The challenges we are facing with the current pandemic
+places our community under tremendous stress, and we appreciate that
+many of our students are dealing with extreme personal challenges this
+semester. You should prioritize your own physical and mental health,
+and the well-being of your friends and family, over any class.</p>
+<p>We endeavor to teach the class in a way that provides a learning
+opportunity and experience that is as valuable as what you would
+receive if we were able to hold in person classes, but know that
+remote learning presents substantial challenges both for teachers and
+learners, and that many students will have circumstances that make
+things especially difficult. We want the class to be a low stress,
+high value experience for everyone.</p>
+<p>We will do everything we can to accommodate students varying
+situations, and to ensure that every student has the best opportunity
+possible to succeed in the class and have a good experience.  Please
+communicate with Dave or Nathan (see details below) to let us know
+about difficulties you are facing, or anything we can do to make
+things better for you.</p>
+<h1 id="preparation">Preparation</h1>
+<p><strong>Official Prerequisites:</strong> CS 2102 and CS 2110 (or comparable
+courses) with grades of C- or higher. (We will waive this
+prerequisite for students who convince us that they satisfy the
+expected background below.)</p>
+<p><strong>Expected Background:</strong> We expect students entering cs3102 to be
+comfortable using proof techniques including proof-by-contradiction,
+using quantifiers, and induction; reasoning about finite and
+infinite sets; and understanding recursive definitions and problem
+solving.</p>
+<p><strong>Programming:</strong> We also expect students to be able to read and write short
+programs. We will use the Python programming language for some
+assignments in the class. It is not necessary to have previous
+experience with Python, but you should have enough programming
+experience to be able to pick up what you need to read and write short
+Python programs on your own. If you do not satisfy the prerequisites,
+you should meet with one of the instructors to discuss whether you
+should take the class.</p>
+<h1 id="course-staff">Course Staff</h1>
+<p><strong>Instructors:</strong> The course is co-taught by <a href="https://www.cs.virginia.edu/~njb2b">Nathan
+Brunelle</a> (<em>njb2b@virginia.edu</em>)
+and <a href="https://www.cs.virginia.edu/evans">David Evans</a>
+(<em>evans@virginia.edu</em>). Feel free to contact either of us with any
+questions about the course, computer science, or anything else you
+think we can help with (but please read the section below on
+communications to determine if it would be better to post a message
+in discord before emailing us).</p>
+<p><strong>Teaching Assistants:</strong> See the <a href="/team">Team Page</a> for all our wise
+and wonderful teaching assistants.</p>
+<p><strong>Office Hours:</strong> Office hours will be held using the course discord
+server.  The full office hours schedule will be posted on the course
+site later.</p>
+<h1 id="learning-materials">Learning Materials</h1>
+<p><strong>Textbook:</strong> Boaz Barak, <a href="https://introtcs.org/public/index.html"><em>Introduction to Theoretical Computer Science</em></a>.</p>
+<p>This is a new textbook that is freely available from
+<a href="https://introtcs.org">https://introtcs.org</a> under a Creative Commons
+license. In addition to costing
+<a href="https://web.archive.org/web/20171023211340/http://www.cengage.com/c/introduction-to-the-theory-of-computation-3e-sipser/9781133187790">$271.95</a>
+less than the traditional textbook for this class, this book takes a
+modern and innovative approach to introducing theory of computation
+which has several advantages (and a few disadvantages) of the
+traditional approach (which we will discuss some in class, and be
+happy to elaborate on during office hours). We plan to follow the
+organization and material in the textbook fairly closely, but will
+also cover some topics that are not included, and present some of the
+material in ways that are different from how it is presented in the
+book.</p>
+<p>In addition to the course textbook, a few readings will be assigned
+from other (freely available) sources.</p>
+<p><strong>Lectures:</strong> Due to Covid-19, we will not have any in-person lectures
+this semester. Instead, we will be providing recorded videos,
+primarily adapted from lectures recorded from previous lectures for
+this course, and supplemented by other available materials. Each
+week&rsquo;s preparation materials will include links to relevant (and
+maybe some irrelevant) videos.</p>
+<h1 id="communication">Communication</h1>
+<p>We will primarily use the course website for one-to-many
+communications (posting course materials), and use the course discord
+for interactive communications.</p>
+<p><strong>Course Website:</strong> We will post all course materials at
+<a href="https://uvatoc.github.io"><em>https://uvatoc.github.io</em></a>. We will also
+use a <a href="https://kytos.cs.virginia.edu/cstheory/">custom-built Kytos
+site</a> for assignment
+submissions, and may occasionally use the collab site to post
+materials we cannot post publicly.</p>
+<p><strong>Discord:</strong> We will use the course discord server for most other
+course communications (you will receive information on joining the
+server by email). We expect students to receive messages we send to
+the <code>#general</code> channel as well as any direct messages we send to you
+on discord. Each cohort will have a channel on the Discord server.</p>
+<p>If you have questions about course materials or assignments that will
+be relevant to other students, please ask them in the <code>#general</code>
+channel. This will get the fastest response, since all of the course
+staff and students will see your question there and be able to respond
+to it. If you have questions of a personal nature that you only want
+to make to the instructors, please use the course discord to contact
+both of us (<code>@nateb @DaveE</code>) in a Direct Message channel instead of
+emailing us independently.</p>
+<p><strong>Email:</strong> Managing email for a large class like this is difficult,
+and we prefer to use the course discord for most communications
+relevant to the class. You should feel free to use email for
+messages peripherally related to the course (e.g., emailing an
+instructor about interest in their research). You should also use
+email if you post a question on slack but don&rsquo;t receive an adequate
+response within 24 hours.</p>
+<h1 id="cohorts">Cohorts</h1>
+<p>Students in the class will be partitioned into cohorts, small groups
+of 5 – 7 students, who we hope will form effective learning
+sub-communities. Each cohort will be expected to work as a group to
+help all members succeed, and each individual will be expected to
+contribute to their own success as well as the success of the other
+members of their cohort.</p>
+<p>Cohorts will have two scheduled weekly meetings, one of which will
+include a member of the course staff. For the first meeting, students
+in the cohort will work together to learn the concepts in the course
+and prepare solutions to the assigned problems for the week. Before
+the cohort preparation meeting, each student in the cohort will be
+expected to study the course materials and to work on these problems
+on their own. At the end of a successful cohort preparation meeting,
+every student in the cohort should understand all the main ideas from
+the course materials for that week, and be able to solve and discuss
+the assigned problems.</p>
+<p>For the second weekly cohort meeting, a teaching assistant will join
+the cohort. The TA will (pseudorandomly) select students in the cohort
+to present problems from the assigned problem set. The primary
+assessment for the course will be how well students do in
+demonstrating their understanding and preparation in presenting these
+problems.</p>
+<p>The typical weekly schedule for students in the course is below (this
+is a representative schedule for a cohort with assessed cohort
+meetings on Mondays; the schedule will adjust based on which day of
+the week the cohort meeting is scheduled):</p>
+<table class="schedule">
+  <thead>
+    <tr>
+      <th width="20%" text-align="center">Day</th>
+      <th width="50%" align="center">Activity</th>
+      <th width="30%" align="center">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+<td>Wednesday</td><td>Preparation Materials: Video Lectures</td><td>120 minutes</td></tr>
+<tr><td></td><td>Preparation Materials: Readings</td><td>90 minutes</td></tr>
+<tr><td>Thursday</td><td>Work on Problem Set (individually)</td><td>120 minutes</td></tr>
+<tr><td>Friday</td><td>Cohort Meeting (without staff)</td><td>75 minutes</td></tr>
+<tr><td>Saturday/Sunday</td><td>Complete Problem Set, Review</td><td>60 minutes</td></tr>
+<tr><td>Monday</td><td>Cohort Meeting (with TA)</td><td>75 minutes</td></tr>
+<tr><td>Tuesday</td><td>Write-up Selected Problem</td><td>60 minutes</td></tr>
+<tr><td colspan=2 align=center>Total Time</td><td>10 hours/week</td></tr>
+</table>
+<p>The schedule is designed to expect 10 hours of total work per week,
+commensurate with a 3-unit course, and we expect this will work best
+for most students by spreading the work throughout the week following
+a schedule similar to the one above.</p>
+<p>Although we have sequentialized the preparation and problem working
+efforts, we expect for most students these will be done more
+fluidly. It will be valuable to read through the assigned problems at
+the beginning of the week, and to attempt to solve problems as you
+complete the relevant preparation materials, rather than doing all the
+preparation materials first and then approaching the problems.</p>
+<p>The actual schedule will vary based on the date of a student&rsquo;s
+assessed cohort meeing, and all students are expected to participate
+fully in their cohort&rsquo;s scheduled meetings (both the preparation
+meeting without staff, and the assessed meeting with the TA).</p>
+<p>Students will be assigned to cohorts based on the information you
+provide in the beginning-of-course survey. Cohort assignments will be
+done around student&rsquo;s provided scheduling constraints.</p>
+<h2 id="problem-sets">Problem Sets</h2>
+<p>For each week, we will provide a reading assignment (these will nearly
+always be from the <a href="https://introtcs.org/public/index.html"><em>Introduction to Theoretical Computer
+Science</em></a> textbook and a set
+of recorded videos that cover the concepts for the week.</p>
+<p>There will be a problem set with problems designed to develop your
+understanding of these concepts. We hope students will find value in
+applying theoretical insights to computer science practice, and we
+will also provide more concrete exercises to help students grasp
+theoretical ideas. For this reason, problem sets will contain a
+mixture of theoretically-focused written problems (with an emphasis on
+developing proofs) and integration-focused programming problems.</p>
+<p>The assessed cohort meetings will focus on presenting and discussing
+problems in the assigned problem set. At the end of the cohort
+meeting, one or two problems will be selected to write-up and students
+in the cohort will be expected to write up a clear, correct, and well
+explaned solution to the selected problem. The cohort as a group will
+be responsible for writing the solution and submitting it as a group.</p>
+<h2 id="grading">Grading</h2>
+<p>Spend your energy focusing on what you are learning, instead of
+worrying about your grade. That said, we understand students are often
+stressed about grading and understandably want to know where they
+stand in a class without having to rely just on the judgment of the
+course staff.  We aim to grade in a way that is useful (provides
+students with accurate measure of how well they understood what they
+should), motivating (encourages the behaviors we prefer, including
+hard but not obsessive work), fair (assigned higher grades to more
+deserving students), robust (arbitrary small perturbations do not have
+a material impact on someone&rsquo;s grade), and low stress (for both
+students and the course staff).</p>
+<p><strong>Exams.</strong> There will be no traditional exams in the course.</p>
+<p><strong>Individual Grading.</strong> The main assessment will be based on students
+performance in the weekly cohort meetings.  Each student will be
+evaluated based on how well they are able to present problems at these
+meetings. It is not necessary or expected that students can solve
+every problem or have a complete solution, and the cohort meetings are
+meant more for learning than assessment, but it is expected that every
+student in the cohort is prepared to discuss every problem in the
+assigned problem set.</p>
+<p>Students will be assigned a grade based on their performance at the
+cohort meeting on this scale:</p>
+<table class="grades">
+  <thead>
+    <tr>
+      <th width="20%" style="text-align:center;">Grade</th>
+      <th width="50%">Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <tr><td style="text-align:center;">3</td><td>Able to present on the selected problem well and to demonstrate good understanding of key concepts.</td></tr>
+<tr><td style="text-align:center;">2</td><td>Able to demonstrate some understanding of key concepts and preparation effort, but not able to make progress on the selected problem.</td></tr>
+<tr><td style="text-align:center;">1</td><td>Showed some understanding of the concepts needed to solve the selected problem, but not well prepared or able to make steps towards a reasonable solution.</td></tr>
+<tr><td style="text-align:center;">0</td><td>Not able to contribute to the cohort meeting.</td></tr>
+</tbody>
+</table>
+<p>We will make allowances for cases where a student is not able to make
+a scheduled cohort meeting due to extenuating circumstances and
+provide a way for students to request an exemption due to a valid
+reason for being unable to make a cohort meeting. Otherwise, a student
+who misses a cohort meeting received 0 cohort assessment points for
+that week. We consider medical issues, personal trauma, legal
+obligations, family responsibilities, and other justifiable conflicts
+to be valid reasons for missing cohort meetings, and students who are
+not able to make a scheduled cohort meeting for such reasons will not
+be disadvantaged as a result. In cases where a student has to miss
+more than two cohort meetings during the semester, we will provide an
+alternate assessment through an individual video meeting.</p>
+<p>Following each cohort meeting, students will receive a grade and brief
+feedback from their TA. We hope this grading will be simple and clear
+enough that students will nearly always understand and agree with the
+grade they are assigned, but in cases where students feel they were
+graded unfairly there will be a mechanisms to request a
+reconsideration by the course instructors. To support this, the
+assessed cohort meetings will be recorded, but the recordings will not
+be released beyond the course staff.</p>
+<p>We will have 12 assessed cohort meetings during the semester (with 36
+total points available for full credit, and some opportunities for
+bonus points). The individual grade for students will be based on this
+scale:</p>
+<center>
+<table class="grades" style="width:50%;">
+  <thead>
+    <tr>
+      <th width="50%" style="text-align:center;">Cohort Assessment Points</th>
+      <th width="50%">Individual Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <tr><td style="text-align:center;">30</td><td style="text-align:center;"><b>A</b></td></tr>
+    <tr><td style="text-align:center;">24</td><td style="text-align:center;"><b>B</b></td></tr>
+    <tr><td style="text-align:center;">16</td><td style="text-align:center;"><b>C</b></td></tr>
+</tbody>
+</table>
+</center>
+<p>With the exception of cases of academic dishonesty or inappropriate
+behavior, we guarantee that you will at least receive the minimum
+letter grade given in the table (possibly modified by a <b>-</b> based
+on the community grading described below), but you may be assigned a
+higher grade based on your overall performance and showing improvement
+over the course of the semester.</p>
+<p>In cases where a student&rsquo;s grade is not clear based on their cohort
+assessments, we will provide option for students to request an oral
+final exam to be scheduled with one of the instructors during the exam
+period.</p>
+<p><a name="bonus"></a>
+<strong>Bonus Points.</strong> We hope students will go beyond the provided
+assignments and do other things to contribute to the class as well as
+beyond. We provide some concrete opportunities for this in the form of
+<em>Challenge Problems</em>, but also will award bonus points for relevant
+and creative activities that students invent on their own. We also
+offer bounty bonuses for contributions to the course textbook: having
+a Pull Request accepted by the author is worth something (even if it
+is just a simple typo fix) is worth one or more bonus cohort
+assessment points, and becoming the <a href="https://github.com/boazbk/tcs/graphs/contributors?from=2017-07-23&amp;to=2020-08-08&amp;type=a">#2 contributor (by &ldquo;Additions&rdquo;)
+to the book
+repository</a>
+is worth an automatic A in the class.</p>
+<p>An additional bonus opportunity is to create an interesting artifact
+(could be a
+<a href="https://youtu.be/YC-ewXitC5w">vi</a><a href="https://youtu.be/PeRRF3jrHbQ">deo</a>,
+<a href="https://soundcloud.com/max-rifkin/discrete-song-copy">song</a>, <a href="http://dori-mic.org/">comic
+book</a>, or some other artifact that can be
+distributed on the Internet) that conveys something (at least loosely)
+related to theoretical computer science. We will post more information
+on this later, but to get an idea of what it will be and to start
+thinking of ideas for this, see <a href="https://uvacs2102.github.io/psomega/">Problem Set
+Ω</a> (from cs2102).</p>
+<p><strong>Community Grading.</strong> In addition to the individual cohort assessment
+grades, each cohort will receive a community grade based on how well
+the cohort does as a group.</p>
+<p>Two main factors will contribute to a cohort&rsquo;s community grade:</p>
+<ul>
+<li>
+<p>Overall performance of the cohort during assessed cohort
+meetings. Doing well on this depends on all members of the cohort
+being prepared to present problems well. This will be determined
+based on the sum of the individual cohort assessments, the weekly
+individual minimum individual cohort assessment, and the trend of
+these values over the semester.</p>
+</li>
+<li>
+<p>The quality of the cohort&rsquo;s written problem submissions. The cohort
+will submit the problem write-up as a group, and everyone in the
+cohort receives the same grade.</p>
+</li>
+</ul>
+<p>The community grade typically will impact individual final grades by
+either a <b>+</b> or a <b>-</b> added to the individual letter grade
+(resulting from the individual grading above).</p>
+<p>In most cases, the community grade will apply equally to all members
+of the cohort. In unusual cases where it is clear that one member of a
+cohort is not contributing, or there are reasons why a cohort is not
+succeeding that are beyond the responsiblity of individual students in
+that cohort, appropriate adjustments will be made.</p>
+<h1 id="honor-expectations">Honor Expectations</h1>
+<p>We believe strongly in the value of a community of trust, and expect
+all of the students in this class to contribute to strengthening and
+enhancing that community.</p>
+<p>The course will be better for everyone if everyone can assume everyone
+else is trustworthy. The course staff starts with the assumption that
+all students at the university deserve to be trusted.</p>
+<p>To ensure that expectations are clear to everyone, all students are
+required to read, understand, and sign the course pledge:
+<a href="https://uvatoc.github.io/pledge">https://uvatoc.github.io/pledge</a>.</p>
+<p><strong>Collaboration Policy:</strong> We believe it is important for students to
+learn by thinking about problems on their own, so it is expected that
+each student studies the provided materials and attempts to solve the
+problems on their own, before discussing the problems with cohortmates
+at the cohort meeting. You are welcome to also discuss problems with
+students and others who are not in your cohort, and to share what you
+learn from them with your cohortmates.</p>
+<p>Many problems in this course will be selected from problems used in
+previous courses, as well as well known problems. The goal of these
+problems is to lead students to develop understanding of the
+underlying concepts by working through the problems themselves and in
+discussions with others, and this goal would be defeated if you
+instead use posted solutions to the problems (it will also probably be
+clear in the assessed cohort meetings if you do not understand a
+problem as deeply as you would if you solved in yourself). Other than
+using solutions to the specific problems you are given, students are
+encouraged to use any other resources they find helpful.</p>
+<p>The collaboration policy will be described on each assignment
+document. We aim to make the language describing the policy as clear
+and unambiguous as possible, but if anything is ever unclear about
+the stated policy for an assignment, please clarify with the course
+staff. The penalty for policy violations will be considered on a
+case-by-case basis, with a penalty commensurate the severity of the
+offense.</p>
+<h1 id="additional-information">Additional Information</h1>
+<p><strong>Special Circumstances:</strong> The University of Virginia strives to provide accessibility to all students. If you require an accommodation to fully access this course, please contact the Student Disability Access Center (SDAC) at (434) 243-5180 or <code>sdac@virginia.edu</code>. If you are unsure if you require an accommodation, or to learn more about their services, you may contact the SDAC at the number above or by visiting their website <a href="https://studenthealth.virginia.edu/sdac">https://studenthealth.virginia.edu/sdac</a></p>
+<p>For this course, we ask that students with special circumstances let
+us know as soon as possible, preferably during the first week of
+class. This will be especially important if there is a reason you
+would not be able to participate fully in a scheduled cohort.</p>
+<p><strong>Religious Accommodations:</strong> It is the University&rsquo;s long-standing
+policy and practice to reasonably accommodate students so that they
+do not experience an adverse academic consequence when sincerely
+held religious beliefs or observances conflict with academic
+requirements.  Students who wish to request academic accommodation
+for a religious observance should submit their request in writing to
+Prof. Brunelle or Prof. Evans as far in advance as possible. If you
+have questions or concerns about academic accommodations for
+religious observance or religious beliefs, visit
+<a href="https://eocr.virginia.edu/accommodations-religious-observance">https://eocr.virginia.edu/accommodations-religious-observance</a>
+or contact the University&rsquo;s Office for Equal Opportunity and Civil
+Rights (EOCR) at <code>UVAEOCR@virginia.edu</code> or 434-924-3200.
+Accommodations do not relieve you of the responsibility for
+completion of any part of the coursework missed as the result of a
+religious observance.</p>
+<p><strong>Safe Environment:</strong> The University of Virginia is dedicated to
+providing a safe and equitable learning environment for all
+students. To that end, it is vital that you know two values that we
+and the University hold as critically important:</p>
+<ol>
+<li>Power-based personal violence will not be tolerated.</li>
+<li>Everyone has a responsibility to do their part to maintain a safe community on grounds (including in virtual environments).</li>
+</ol>
+<p>If you or someone you know has been affected by power-based personal
+violence, more information can be found on the UVA Sexual Violence
+website that describes reporting options and resources available:
+<a href="https://www.virginia.edu/sexualviolence">https://www.virginia.edu/sexualviolence</a>.</p>
+<p>As your professors and as humans, know that we each care about you and
+your well-being and stand ready to provide support and resources as we
+can. As faculty members, we are responsible employees, which means
+that we are required by University policy and federal law to report
+what you tell us to the University&rsquo;s Title IX Coordinator. The Title
+IX Coordinator&rsquo;s job is to ensure that the reporting student receives
+the resources and support that they need, while also reviewing the
+information presented to determine whether further action is necessary
+to ensure survivor safety and the safety of the University
+community. If you would rather keep this information confidential,
+there are Confidential Employees you can talk to on Grounds (see
+<a href="https://eocr.virginia.edu/chart-confidential-resources">https://eocr.virginia.edu/chart-confidential-resources</a>  ). The
+worst possible situation would be for you or your friend to remain
+silent when there are so many here willing and able to help.</p>
+<p><strong>Well-being:</strong> If you are feeling overwhelmed, stressed, or isolated,
+there are many individuals here who are ready and wanting to help. The
+Student Health Center offers Counseling and Psychological Services
+(CAPS) for all UVA students. Call 434-243-5150 (or 434-972-7004 for
+after hours and weekend crisis assistance) to get started and schedule
+an appointment. If you prefer to speak anonymously and confidentially
+over the phone, Madison House provides a HELP Line at any hour of any
+day: 434-295-8255.</p>
+
+      </div>
+
+      <meta itemprop="wordCount" content="3796">
+      <meta itemprop="datePublished" content="2020-08-07">
+      <meta itemprop="url" content="https://uvatoc.github.io/syllabus/">
+    </article>
+</div>
+
+
+    </main>
+    
+    
+<footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <a href="//uvatoc.github.io"><b>cs 3102: Theory of Computation</b></a><br>
+      <a href="//www.cs.virginia.edu">University of Virginia</a>
+    </div>
+    <div class="column small-14 medium-5">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="https://uvatoc.github.io/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+  </hr>
+</footer>
+
+
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

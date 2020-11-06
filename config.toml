@@ -1,0 +1,50 @@
+baseurl = "https://uvatoc.github.io/"
+languageCode = "en-us"
+title = "Theory of Computation"
+subtitle = "UVA CS 3102 Fall 2019"
+copyright = ""
+theme = "toc"
+
+paginate = 10
+paginatePath = "page"
+
+pageNotFoundTitle = "Not Found"
+pageNotFoundDetail = "Your request cannot be resolved in the current axiomatic system. This could be because you have discovered a contradiction to Cantor's Continuum Hypothesis, but it is most likely a bad link or mistyped URL. If its a broken link, please let us know."
+
+# disqusShortname = "evans1629"
+
+[permalinks]
+    post = "/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "UVA TOC"
+    #    email = "evans@virginia.edu"
+
+[params]
+    brand = "Theory of Computation"
+    topline = "Theory of Computation"
+    footline = "<p align=\"center\">CS 3102 | University of Virginia, Fall 2019 | <a href=\"http://www.cs.virginia.edu/~njb2b/\">Nathan Brunelle</a> and <a href=\"https://www.cs.virginia.edu/evans\">David Evans</a></p>"
+    sidebar = "left"
+    # googleAnalytics = "UA-3775212-1"
+
+    nodate = true
+    noauthor = true
+    noread = true
+    nopaging=true
+    notoc=true
+
+[blackfriday]
+    angledQuotes = false
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
+
+[[menu.footer]]

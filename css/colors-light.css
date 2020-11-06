@@ -1,0 +1,11 @@
+:root {
+  /* colors from: https://colorhunt.co/palette/154644 */
+  --primary-color: #3a1f5d;
+  --bside-color: #886176; /* #c83660; */
+  --tb-color: #9A7197; /* #e15249; */
+  --sp-color: #886176; /* #c83660; /* #f6d365; */
+  --highlight-color: #886176; /* #f6d365; */
+  --bg-color: #fff;
+  --inverse-color: #fafafa;
+  --inverse-light-color: #dadada;
+}

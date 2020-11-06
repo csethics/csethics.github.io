@@ -1,0 +1,312 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Posts | Theory of Computation</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/foundation.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/fonts.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/finite.css">
+    <link rel="shortcut icon" href="/images/uva.png">  
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="https://uvatoc.github.io/">Theory of Computation</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+	      
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="https://uvatoc.github.io/">Theory of Computation</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+	         <p class="groupstyle">Computer Science</br>University of Virginia</p>
+		
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+
+<div class="container">
+<div class="content">
+<div class="row">
+    
+    
+    <h2><a href="/ps5update2/">Problem Set 5 Update</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">23 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+Two more updates to PS5:
+  Problem 7 considered adding an array but not loops to NAND-CIRC. But, it doesn&rsquo;t make sense to have arrays without any way to update the index used to access them. So, for this to make sense we need to also have an instruction to update i. So, we have modified this question to add conditional increment and decrement instructions:
+  CINC v takes a regular variable as its input, and if the value of v is 1 it updates the value of i to be i + 1.
+<p class="text-right"><a href="/ps5update2/">Read More…</a></p>
+	
+
+    
+    <h2><a href="/ps5update/">Problem Set 5 Update</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">22 October 2019</time> by David Evans
+  </span>
+  
+</div>
+
+
+There were several mistakes in PS5, Problem 1, which are now corrected (updated ps5.pdf, ps5.zip).
+Problem 1a should be:
+ Prove that when $f^*(i) = 0$, $f_{i+1} = f_i$. That is, the two functions denoted by $f_{i + 1}$ and $f_i$ are actually the same function.  Thanks to Joey Rudek for noticing the problem!
+Problems 6 and 7 mixed up NAND-CIRC and NAND-TM. Problem 6 should be asking if NAND-LOOP is more powerful than NAND-CIRC (it would be silly to ask if it is more powerful than NAND-TM, since NAND-TM has everything in NAND-LOOP plus arrays, so there&rsquo;s no way NAND-LOOP could be more powerful than NAND-TM).
+<p class="text-right"><a href="/ps5update/">Read More…</a></p>
+	
+
+    
+    <h2><a href="/class14/">Class 14: Computability</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">21 October 2019</time> by David Evans
+  </span>
+  
+</div>
+
+
+<p><a href="https://www.dropbox.com/s/nw9zh8a0vahvaqy/class14-inked.pdf?dl=0">Slides</a><br>
+<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e086e67f-71aa-45e1-a59d-aaed01412ded">Video</a></p>
+<p><a href="/docs/tcs-chapter6.pdf">TCS Chapter 6: Loops and Infinity</a><br>
+<a href="/docs/tcs-chapter8.pdf">TCS Chapter 8: Universaility and Uncomputability</a></p>
+<p>Alan M. Turing, <a href="/docs/computablenumbers.pdf"><em>On Computable Numbers, with an Application to the
+Entscheidungsproblem</em></a>. 1936. (<a href="/docs/bugfix.pdf">bug fix</a>)</p>
+
+	
+
+    
+    <h2><a href="/ps5/">Problem Set 5</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">19 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+Problem Set 5: Loopy Tunes Problem Set 5 is available here: ps5.pdf (you will also need the ps5.zip file). It is due on Friday, 25 October at 4:19pm.
+These is no Jupyter part for PS5, so your submission can be just one ps5.pdf file.
+This assignment covers the Size Hierarchy from Chapter 5, Finite State Macines from Class 12 and Class 13, and Turing Machines, NAND-TM, and computability from Chapter 5, Class 13 and Class 14.
+<p class="text-right"><a href="/ps5/">Read More…</a></p>
+	
+
+    
+    <h2><a href="/class13/">Class 13: Machines</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">17 October 2019</time> by Nathan Brunelle
+  </span>
+  
+</div>
+
+
+<p><a href="https://www.dropbox.com/s/36tv9no453ffmkn/class13_written.pptx?dl=0">Slides</a></p>
+<p><a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89195d73-1989-4b2f-8b70-aae8014178c4">Video</a></p>
+<p><a href="/docs/tcs-chapter6.pdf">TCS Chapter 6: Loops and Infinity</a></p>
+
+	
+
+    
+    <h2><a href="/class12/">Class 12: Size Hierarchy</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">15 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+<p><a href="https://www.dropbox.com/s/fj5ko40dnimx3h2/class12_written.pptx?dl=0">Slides</a><br>
+<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=18139c06-6bac-49b2-a340-aae601415d26">Video</a></p>
+<p><a href="/docs/tcs-chapter5.pdf">TCS Chapter 5: Code as data, data as code</a></p>
+
+	
+
+    
+    <h2><a href="/ps4/">Problem Set 4</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">11 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+Problem Set 4: Countess of Functions Problem Set 4 is available here: ps4.pdf (you will also need the ps4.zip file). It is due on Friday, 18 October at 4:19pm.
+This assignment involves both PDF and Jupyter parts, and you should submit both your ps4.ipynb and ps4.pdf files as attachments in collab. As far as we know, none of the problems are impossible (we may be wrong, of course, but none of them are intentionally impossible to solve).
+<p class="text-right"><a href="/ps4/">Read More…</a></p>
+	
+
+    
+    <h2><a href="/class11/">Class 11: Cost and Counting</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">9 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+<p><a href="https://www.dropbox.com/s/tbsytzp9n6fnyvg/class11-post.pdf?dl=0">Slides</a><br>
+<a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a2349417-446c-46a8-b5ec-aae10141417e">Video</a></p>
+<p><a href="/docs/tcs-chapter5.pdf">TCS Chapter 5: Code as data, data as code</a></p>
+
+	
+
+    
+    <h2><a href="/exam1comments/">Exam 1 Comments</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">9 October 2019</time> by David Evans and Nathan Brunelle
+  </span>
+  
+</div>
+
+
+<p>The comments on Exam 1 are here: <a href="/docs/exam1-comments.pdf">PDF</a>.</p>
+<p>The original exam is here: <a href="/docs/exam1.pdf">PDF</a></p>
+<p>Overall the class did very well on Exam 1. The average scores by problem are:</p>
+<center>
+<table style="width:80%">
+<tr>
+<th align="center" width="10%">Cover</th><th align="center" width="10%">1</th><th align="center" width="10%">2</th><th align="center" width="10%">3</th><th align="center" width="10%">4</th><th align="center" width="10%">5</th><th align="center" width="10%">6</th><th align="center" width="10%">7</th><th align="center" width="10%">8</th><th align="center" width="10%">9</th>
+</tr>
+<tr>
+<td align="center">15</td><td align="center">9.8</td><td align="center">9.3</td><td align="center">9.8</td><td align="center">9.5</td><td align="center">6.7</td><td align="center">8.7</td><td align="center">8.8</td><td align="center">8.9</td><td align="center">7.9</td></tr>
+</table>
+</center>
+
+	
+
+    
+    <h2><a href="/fallbreak/">Fall Break</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-10-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">3 October 2019</time> by David Evans
+  </span>
+  
+</div>
+
+
+<p>Enjoy your Fall Break!</p>
+<p>We will have no regularly scheduled office hours until after classes
+resume on October 9. We will return Exam 1 in class on Wednesday,
+October 9.  There is no problem set due next week. Problem Set 4 will
+be due on Friday, 18 October.</p>
+
+	
+
+    
+    <div class="row">
+  <div class="column small-12">
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      
+      <li class="arrow" aria-disabled="true"><a href="/post/page/4/">&laquo; <em>Older<span class="show-for-sr"> blog entries</span></em></a></li>
+      
+      <li><span>Page 3 of 6</span></li>      
+      
+      <li class="arrow" aria-disabled="true"><a href="/post/page/2/"><em>Newer<span class="show-for-sr"> blog entries</span></em>:&nbsp;&raquo;</a></li>
+      
+    </ul>    
+    All Posts by <a href="https://uvatoc.github.io/categories">Category</a> or <a href="https://uvatoc.github.io/tags">Tags</a>.
+
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+    </main>
+    
+    
+    <footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <a href="//uvatoc.github.io"><b>cs 3102: Theory of Computation</b></a><br>
+      <a href="//www.cs.virginia.edu">University of Virginia</a>
+    </div>
+    <div class="column small-14 medium-5">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="https://uvatoc.github.io/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+  </hr>
+</footer>
+
+    
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

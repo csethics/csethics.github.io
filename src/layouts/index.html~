@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{ $posts_title := index .Site.Params "posts_title" | default "Posts" }}
+{{ $posts_count := index .Site.Params "posts_count" | default 5 }}
+{{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
+{{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
+
+   <div class="container">       
+   <div class="sidebar">
+   <p>
+University of Virginia<Br>
+cs3102 Fall 2020<br>
+Theory of Computation<br>
+</p>
+<p>
+<p>
+<b><a href="/syllabus">Syllabus</a></b></br>
+&nbsp;&nbsp;&nbsp;<a href="/schedule">Schedule</a></br>
+&nbsp;&nbsp;&nbsp;<a href="/openhours">Open Help Hours</a></br>
+&nbsp;&nbsp;&nbsp;<a href="/pledge">Pledge</a></br>
+</p>
+<p>
+  <a href="/week1">Week 1</a></br>
+  <a href="/week2">Week 2</a></br>
+  <a href="/week3">Week 3</a></br>
+  <a href="/week4">Week 4</a></br>
+  <a href="/week5">Week 5</a></br>
+  <a href="/week6">Week 6</a></br>
+  <a href="/week7">Week 7</a></br>
+  <a href="/week8">Week 8</a></br>
+  <a href="/week9">Week 9</a></br>
+  <a href="/week10"><b>Week 10</b></a></br>
+  <a href="/week11"><b>Week 11</b></a></br>
+</p>
+
+<b><a href="https://introtcs.org">Book</a></b> [<a href="https://files.boazbarak.org/introtcs/lnotes_book.pdf">PDF</a>]</br>
+   <a href="/resources/"><b>Resources</b></a></p>
+   
+<p></p>
+
+   <p>
+   <b><a href="/post/">Recent Posts</a></b>
+
+   {{ range first 15 (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
+   <div class="posttitle">
+      {{ partial "post-title" . }}
+   </div>
+   {{ end }}
+   
+   </p>
+   <p>
+   <b><a href="/team/">Team</a></b><br>
+   </p>
+   <p>
+     <a href="/f19/">Fall 2019 Archive</a>
+     </p>
+
+   </div>
+
+
+    <div class="content">
+
+    {{ range .Site.Pages }}
+        {{ if eq .Type "index" }}
+           {{ .Content }}
+        {{ end }}
+    {{ end }}
+
+
+    
+    {{ range first $posts_count (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
+    {{ partial "post-full-summary" . }}
+    {{ end }}
+
+
+    <footer>
+      <nav>
+	<a href="/post/" class="button hollow primary">All {{ $posts_title }}</a>
+      </nav>
+    </footer>
+
+</div>
+</div>
+
+{{ end }}
+

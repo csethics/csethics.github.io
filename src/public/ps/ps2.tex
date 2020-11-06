@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+\usepackage{uvatoc}
+% For your submission, you will comment the line above, and uncomment the one below:
+%\usepackage[response]{uvatoc}
+
+\begin{document}
+
+\makeheader
+
+\makemytitle{Week 2: Fine Finite Computation}
+
+\submitter{TODO: Cohort Name (names of all who contributed)}
+
+\collaborators{TODO: Replace with your collaborators and resources}
+
+\directions{
+This is a template to help with your write-up for Week 2. The actual problem you will write up will be selected by your Cohort Leader at the Assessed Cohort Meeting.
+}
+
+\directions{
+
+\section{Getting Started with LaTeX}
+
+For the post cohort write-ups in this class, you will be required to submit your responses as PDF files typeset with LaTeX\footnote{To Quote Leslie Lamport (the creator LaTeX) ``One of the hardest things about LaTeX is deciding how to pronounce it. This is also one of the few things I'm not going to tell you about LaTeX, since pronunciation is best determined by usage, not fiat. TeX is usually pronounced teck, making lah-teck, and lay-teck the logical choices; but language is not always logical, so lay-tecks is also possible.''}, a professional formatting system that is used in most serious mathematical typesetting, which is a set of libraries built on the TeX typesetting language developed by Donald Knuth.
+
+If you haven't used LaTeX before, there is a bit of a learning curve to using it, but you will find the ability it gives you to efficiently produce beautiful and complex documents to be a valuable life-long skill. We recommend using \hyperlink{www.overleaf.com}{Overleaf}, an in-browser collaborative editor for LaTeX. You can create a document shared with all the students in your cohort, and use that to work together to produce a clear, convincing, and elegant write-up of your solution.
+
+\subsection{Register for Overleaf}
+
+Visit \url{https://www.overleaf.com} and register for an Overleaf account (if you don't already have one). UVA has a site license to Overleaf, so if you register with your \keyword{@virginia.edu} email address you will have full access to all the Overleaf features for free.  
+
+\subsection{Clone the Problem Set 2 Template Repository}
+
+One member of your cohort should create a copy of the Problem Set 2 repository, by following these steps (we recommend doing this together, with the one creating the repository sharing her screen for everyone to follow along):
+
+\begin{enumerate}
+\item Download the Problem Set 2 template from: \url{https://uvatoc.github.io/ps/ps2.zip}
+\item In Overleaf, click on \keyword{Create First Project} or \keyword{New Project} in Overleaf and select \keyword{Upload Project} from the menu.
+\item Click \keyword{Select a .zip file} and then select the \keyword{ps2.zip} file you downloaded in step 1.
+\item Share the repository with your cohortmates by clicking the "Share" button at the top right of the overleaf window, and entering your cohortmates email addresses in the sharing form.
+\end{enumerate}
+
+In the left side of the browser, you should see a file directory containing \keyword{ps2.tex}, the template you will modify to provide your write-up, and \keyword{uvatoc.sty}, a style file that defines useful macros for cs3102 (you are welcome to look at this file, but should not need to modify it).
+
+Click on \keyword{ps2.tex} to see the LaTeX source for this file.
+
+Click \keyword{Recompile} to build the PDF. You should see this document in the right side of the browser.
+
+\subsection{Editing ps2.tex}
+
+The first thing you should do in \keyword{ps2.tex} is set up your cohort name as the author of the submission by replacing the line, \texttt{\textbackslash submitter\{TODO: your name\}}, with your the name of your cohort (e.g., \texttt{\textbackslash submitter\{Cohort Hopper (Ada Lovelace, Don Knuth)\}}). For the list of cohort members, this should usually be everyone in your cohort, but if someone did not contribute during the week, they should not be included in your submission list (and should have informed us about their absence separately).
+
+Then, try rebuilding the PDF by clicking \keyword{Recompile}. You should see a file that includes your name and collaborators, but with all the directions removed (we don't want to see these again in your submission).
+
+There are many guides to getting started using LaTeX, but we think you will mostly find it easiest to just learn from what you see in the templates. Overleaf's documentation is quite good. If you want an organized introduction, try \href{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}{\em Learn LaTeX in 30 minutes}.
+
+Before submitting your \keyword{ps2.pdf} file, also remember to:
+\begin{itemize}
+\item List your collaborators and resources, replacing the TODO in {\texttt{\textbackslash collaborators\{TODO: replace ...\}}} with your collaborators and resources. You do not need to include
+
+\item Replace the second line in \keyword{ps2.tex}, \texttt{\textbackslash usepackage\{uvatoc\}} with \texttt{\textbackslash usepackage[response]\{uvatoc\}} so the directions do not appear in your final PDF. You can do this by using the LaTeX comment token, {\texttt{\%}}. The rest of the line after a {\texttt{\%}} is treated as a comment. You'll notice after you to this, when you Recompile the document, most of it will disappear (everything in \keyword{\textbackslash directions} is left out, so only your solution will appear in the submitted document).
+\end{itemize}
+}
+
+\stepcounter{problem}  % skip Problem 1: Cohortommendations
+
+\vbox{
+\begin{problem}
+Infinite Dominoes
+\end{problem}
+
+\directions{A domino is a tile with an unordered pair of numbers on it (e.g. $0,5$ or $3,3$). Dominoes come in sets containing all pairs of natural numbers less than or equal to some upper bound. 
+
+A pack of ``double 6'' dominoes will contain all unordered pairs of values from the set $\{0,1,2,3,4,5,6\}$ (there will be 28 total). A pack of ``double 3'' dominoes will contain all unordered pairs of values from the set $\{0,1,2,3\}$ (there will be 10 total). 
+
+A \textit{domino chain} is a sequence of dominoes ordered so that the second value of each domino matches the first value of the next. The domino sequence $(1,2) (2,5) (5,5) (5,0)$ is a valid domino chain, whereas $(1,2) (2,5) (5,5) (0,0)$ is not.
+
+Consider a pack of ``double $\mathbb{N}$'' dominoes, which contains all of the infinitely-many unordered pairs of natural numbers. Show that there is an uncountable number of infinite-length domino chains that can be constructed from a pack of ``double $\mathbb{N}$'' dominoes.}  
+}
+
+\stepcounter{problem}  % skip Problem 3: Cantor's Proof
+\stepcounter{problem}  % skip Problem 4: Straightline Programming
+
+\vbox{
+\begin{problem}
+Compare 4 bit numbers \rm (Exercise 3.1 in TCS book)
+\end{problem}
+
+\directions{
+Draw a Boolean circuit (using only \emph{AND}, \emph{OR}, and \emph{NOT} gates) that computes the function $CMP_8:\{0,1\}^8 \rightarrow \{0,1\}$ such that $CMP_8(a_0, a_1, a_2, a_3, b_0, b_1, b_2, b_3) = 1$ if and only if the number represented by $a_0a_1a_2a_3$ is larger than the number represented by $b_0b_1b_2b_3$. We will say that $a_0$, $b_0$ are the most significant bits and $a_3$, $b_3$ are least significant.}
+}
+
+
+\begin{problem}
+Compare $n$ bit numbers \rm (Exercise 3.2 in TCS book)
+\end{problem}
+
+\directions{
+Prove that there exists a constant $c$ such that for every $n$ there is a Boolean circuit (using only \emph{AND}, \emph{OR}, and \emph{NOT} gates) $C$ of at most $c\cdot n$ gates that computes the function $CMP_{2n}:\{0,1\}^{2n} \rightarrow \{0,1\}$ such that $CMP_{2n}(a_0\cdots a_{n-1} b_0 \cdots b_{n-1})=1$ if and only if the number represented by $a_0 \cdots a_{n-1}$ is larger than the number represented by $b_0 \cdots b_{n-1}$.
+
+In other words, generalize the previous problem to describe how to compare $n$-bit numbers for any specific value $n$ using \emph{AND}, \emph{OR}, and \emph{NOT}. The total number of gates used should be upper bounded by some constant $c$ times $n$ (i.e. asymptotically linear).}
+
+\begin{problem}
+\emph{NOR} equals \emph{AON} \rm (based on Exercise 3.7 in TCS book)
+\end{problem}
+
+\directions{
+Let $\textit{NOR}:\{0,1\}^2 \rightarrow \{0,1\}$ defined as $\textit{NOR}(a,b) = \textit{NOT}(\textit{OR}(a,b))$. Prove that $\{ \textit{NOR} \}$ is equivalent to $\textit{AND, OR, NOT}$. In other words, show that any function that can be computed by $\textit{AND,OR,NOT}$ can also be computed using just $\textit{NOR}$, and vice-versa. 
+} 
+ 
+\begin{problem}
+XOR does not equal \emph{AON} \rm (based on Exercise 3.5 in TCS book)
+\end{problem}
+
+\directions{
+Prove that the gates ${\textit{XOR} , 0 , 1}$ is \textit{weaker} than $\textit{AND, OR, NOT}$. (You can use any strategy you want to prove this; see the book for one hint of a possible strategy, but we think you may be able to find easier ways to prove this, and it is not necessary to follow the strategy given in the book.}
+
+
+\end{document}

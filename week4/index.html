@@ -1,0 +1,225 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 4 | Theory of Computation</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/foundation.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/fonts.css">
+    <link rel="stylesheet" href="https://uvatoc.github.io/css/finite.css">
+    <link rel="shortcut icon" href="/images/uva.png">  
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="https://uvatoc.github.io/">Theory of Computation</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+
+
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="https://uvatoc.github.io/">Theory of Computation</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+
+
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+
+<div class="content">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+      <h1 itemprop="name" class="pagetitle">Week 4</h1>
+      <div class="post-body" itemprop="articleBody">
+        <h1 id="goals">Goals</h1>
+<p>The main goals for Week 4 are to:</p>
+<ul>
+<li>Implement and use the EVAL function. This is our first exposure to a modul of computing which is able to simulate an instance of itself. This idea is fundamental to the practice of computer science, as it enables us to have arbitrarily reprogrammable machines which run with fixed hardware.</li>
+<li>Begin classifying functions by complexity (i.e. resources required to implement them).</li>
+<li>Reason about how theory and practice might differ from one another, and why that might be a good thing.</li>
+</ul>
+<h1 id="schedule">Schedule</h1>
+<table class="schedule">
+  <thead>
+    <tr>
+      <th text-align="center">Day</th>
+      <th align="center">"Tuesday" Cohort</th>
+      <th align="center">"Wednesday" Cohort</th>
+      <th align="center">"Thursday" Cohort</th>
+      <th align="center">"Friday" Cohort</th>
+      <th align="center">"Sunday" Cohort</th>
+      <th align="center">"Monday" Cohort</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr><td><b>Wed</b> 16&nbsp;Sep</td>        <td>Preparation</td>	          <td bgcolor="lightyellow">(Week 3)</td> <td bgcolor="lightyellow">(Week 3)</td> <td bgcolor="lightyellow">(Week 3)</td>	 <td bgcolor="lightyellow">(Week 3)</td>	 <td bgcolor="lightyellow">(Week 3)</td>			 
+</tr><tr><td><b>Thu</b> 17&nbsp;Sep</td>        <td>Preparation</td>           <td>Preparation</td> <td bgcolor="lightyellow">(Week 3)</td> <td bgcolor="lightyellow">(Week 3)</td>	 <td bgcolor="lightyellow">(Week 3)</td>	<td bgcolor="lightyellow">(Week 3)</td>		
+</tr>
+<tr><td><b>Fri</b> 18&nbsp;Sep</td>   <td>Preparation</td>           <td>Preparation</td>      <td>Preparation</td>   <td bgcolor="lightyellow">(Week 3)</td>	<td bgcolor="lightyellow">(Week 3)</td>	<td bgcolor="lightyellow">(Week 3)</td>	  
+</tr><tr><td><b>Sat/Sun</b> 19/20 Sep</td> <td><b>Cohort Meeting</b></td> <td>Preparation</td>      <td>Preparation</td>      <td>Preparation</td>   <td bgcolor="lightyellow">(Week 3)</td>  <td bgcolor="lightyellow">(Week 3)</td>		 
+</tr><tr><td><b>Mon</b> 21&nbsp;Sep</td>        <td>Preparation</td>		  <td><b>Cohort Meeting</b></td> <td>Preparation</td>       <td>Preparation</td>     <td>Preparation</td> <td bgcolor="lightyellow">(Week 3)</td>		
+</tr><tr><td><b>Tue</b> 22&nbsp;Sep</td>         <td><font color="red"><b>Assessed Cohort Meeting</b></font></td> <td>Preparation</td>   <td><b>Cohort Meeting</b></td> <td>Preparation</td>       <td>Preparation</td> <td>Preparation</td>
+</tr><tr><td><b>Wed</b> 23&nbsp;Sep</td>         <td><font color="blue"><b>Write-up Due</b></font></td>  <td><font color="red"><b>Assessed Cohort Meeting</b></font></td> <td>Preparation</td>        <td><b>Cohort Meeting</b></td> <td>Preparation</td> <td>Preparation</td>
+</tr><tr><td><b>Thu</b> 24&nbsp;Sep</td>         <td bgcolor="lightblue">Week 5</td> <td><font color="blue"><b>Write-up Due</b></font></td>  <td><font color="red"><b>Assessed Cohort Meeting</b></font></td> <td>Preparation</td> <td><b>Cohort Meeting</b></td> <td>Preparation</td>
+</tr><tr>
+<td><b>Fri</b> 25&nbsp;Sep</td>
+<td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td><font color="blue"><b>Write-up Due</b></font></td> <td><font color="red"><b>Assessed Cohort Meeting</b></font></td> <td>Preparation</td>   <td><b>Cohort Meeting</b></td>
+</tr><tr><td><b>Sat/Sun</b> 26/27&nbsp;Sep</td>     <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td>  <td><font color="blue"><b>Write-up Due</b></font></td> <td><font color="red"><b>Assessed Cohort Meeting</b></td> <td>Preparation</td>
+</tr><tr><td><b>Mon</b> 28&nbsp;Sep</td>         <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td> <font color="blue"><b>Write-up Due</b></font></td> <td><font color="red"><b>Assessed Cohort Meeting</b></font></td>
+</tr>
+</tr><tr><td><b>Tue</b> 29&nbsp;Sep</td>         <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td> <td bgcolor="lightblue">Week 5</td>  <td bgcolor="lightblue">Week 5</td> <td><font color="blue"><b>Write-up Due</b></font></td>
+</tr>
+</tbody>
+</table>
+<p><a name="problems"></a></p>
+<h1 id="cohort-problems">Cohort Problems</h1>
+<p>These are the problems you should discuss in your Cohort Meeting, and
+everyone in your cohort should be prepared to present and discuss
+solutions to at the Assessed Cohort Meeting:</p>
+<p><a href="/docs/ps4.pdf">Cohort Problems for Week 4 [PDF]</a><br>
+<a href="/docs/eval.py">Programming Problems for Week 4 [PY]</a></p>
+<p>The problems are posted here and we think its a good idea to look at
+them early, but you&rsquo;re not expected to be able to solve them until
+after doing the readings and watching the videos below.</p>
+<p>After the Assessed Cohort Meeting, your Cohort Leader will select one
+problem that your cohort needs to write-up and submit.  The write-up
+is due by <strong>11:59pm</strong> on the day after your assessed cohort meeting
+(see the schedule above).</p>
+<p>The <a href="/docs/ps4template.pdf">PS4 Template</a> provides directions and a
+template for producing the PDF file you will submit as your write-up.</p>
+<p>Download the <a href="https://uvatoc.github.io/docs/ps4template.zip">Problem Set 4 Template [zip]</a>.</p>
+<h1 id="reading">Reading</h1>
+<ul>
+<li><a href="/docs/tcs-chapter4.pdf">Ch. 4, Syntactic sugar and computing every function</a> from the TOC textbook. In particular, we cover sections 4.4, 4.5, and 4.6 this week.</li>
+<li><a href="/docs/tcs-chapter5.pdf">Ch. 5, Code as data, data as code</a> from the TOC textbook. In particular, we cover sections 5.1 through 5.5. We are skipping the optional section 5.2.1.</li>
+</ul>
+<h1 id="videos">Videos</h1>
+<p>You can play all the videos using this playlist, but don&rsquo;t forget to take breaks: <a href="https://www.youtube.com/playlist?list=PLvpsxlEF9cP2_mk84Aec-DrqkFJjP6iCN">Week 4 Playlist</a></p>
+<p>
+These videos are edited from these cs3102 classes (we don't generally recommend watching the unedited versions, but they are available if you want to):
+<ul>
+<li>(Spring 2020) Feb 6: Universality - <a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=09d785d3-29eb-45a5-9cfb-ab590151f099">Unedited Video</a> <a href="https://www.cs.virginia.edu/~njb2b/cstheory/s2020/files/slides/universality_written.pdf">Slides</a></li>
+<li>(Spring 2020) Feb 11: Evaluation - <a href="https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cd4c8fde-c3db-4dcf-8f51-ab5e01527773">Unedited Video</a> <a href="https://www.cs.virginia.edu/~njb2b/cstheory/s2020/files/slides/complexity_written.pdf">Slides</a></li>
+</ul>
+</p>
+<p>Computing Any Finite Function<br>
+<iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/vE-N_ErO7W0' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+</p>
+<p>Making Zero and One<br><iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/v3mw1sHrZbo' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<p>How Many Gates?<br><iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/WPllMBJC0q0' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<div class="break">
+<div class="takeabreak">
+<b>Breaktime: Walk Outside</b>
+</div>
+</div>
+<p>Introducing EVAL<br><iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/HTHYjpgyWNY' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<p>Representing Programs<br><iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/RNN-hW9x_8Y' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<div class="break">
+<div class="takeabreak">
+<b>Breaktime: Learn a new word in a new language</b>
+</div>
+</div>
+<p>Defining EVAL<br><iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/5RbgIcs0bEw' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<h2 id="bonus-video">Bonus Video</h2>
+<p>The 10,000 Domino Computer (from <em>Stand-up Maths</em>)<br>
+<iframe width='800' height='450' src='https://www.youtube-nocookie.com/embed/OpLU__bhu2w' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></p>
+<div class="break">
+<div class="takeabreak">
+<b>Breaktime: Play with Dominoes and try to make a NAND gate</b>
+</div>
+</div>
+
+      </div>
+
+      <meta itemprop="wordCount" content="559">
+      <meta itemprop="datePublished" content="2020-09-16">
+      <meta itemprop="url" content="https://uvatoc.github.io/week4/">
+    </article>
+</div>
+
+
+    </main>
+    
+    
+<footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-12 medium-6">
+      <a href="//uvatoc.github.io"><b>cs 3102: Theory of Computation</b></a><br>
+      <a href="//www.cs.virginia.edu">University of Virginia</a>
+    </div>
+    <div class="column small-14 medium-5">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="https://uvatoc.github.io/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+  </hr>
+</footer>
+
+
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

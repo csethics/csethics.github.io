@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $posts_title := index .Site.Params "posts_title" | default "Posts" }}
+{{ $posts_count := index .Site.Params "posts_count" | default 5 }}
+{{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
+{{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
+
+   <div class="container">       
+   <div class="sidebar">
+   <p>
+University of Virginia<Br>
+cs3501 Spring 2021<br>
+Everyday Ethics and Quotidian Quandries for Computer Scientists
+</p>
+<p>
+<!--
+  <b><a href="/syllabus">Syllabus</a></b></br>
+&nbsp;&nbsp;&nbsp;<a href="/schedule">Schedule</a></br>
+&nbsp;&nbsp;&nbsp;<a href="/openhours">Open Help Hours</a></br>
+&nbsp;&nbsp;&nbsp;<a href="/pledge">Pledge</a></br>
+</p>
+<p>
+   <a href="/resources/"><b>Resources</b></a></p>
+-->   
+<p></p>
+
+   <p>
+   <b><a href="/post/">Recent Posts</a></b>
+
+   {{ range first 15 (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
+   <div class="posttitle">
+      {{ partial "post-title" . }}
+   </div>
+   {{ end }}
+   
+   </p>
+
+   </div>
+
+
+    <div class="content">
+
+    {{ range .Site.Pages }}
+        {{ if eq .Type "index" }}
+           {{ .Content }}
+        {{ end }}
+    {{ end }}
+
+
+    
+    {{ range first $posts_count (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
+    {{ partial "post-full-summary" . }}
+    {{ end }}
+
+
+    <footer>
+      <nav>
+	<a href="/post/" class="button hollow primary">All {{ $posts_title }}</a>
+      </nav>
+    </footer>
+
+</div>
+</div>
+
+{{ end }}
+
