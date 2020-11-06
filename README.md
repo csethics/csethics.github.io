@@ -1,4 +1,3 @@
-# uvatoc.github.io
+# csethics.github.io
 
-Course Website for University of Virginia's Theory of Computation
-(cs3102) course, co-taught by Nathan Brunelle and David Evans.
+Course Website for University of Virginia _Everyday Ethics and Quotidian Quandries for Computer Scientists_ (cs3501) course, taught by [David Evans](https://www.cs.virginia.edu/evans).
