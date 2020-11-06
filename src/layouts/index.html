@@ -11,9 +11,6 @@ University of Virginia<Br>
 cs3501 Spring 2021<br>
 <em>Everyday Ethics and Quotidian Quandries for Computer Scientists</em>
 </p>
-   <p>
-     <a href="https://www.cs.virginia.edu/evans">David Evans</a>
-   </p>
    
   <!--
   <b><a href="/syllabus">Syllabus</a></b></br>
@@ -26,15 +23,20 @@ cs3501 Spring 2021<br>
 -->   
 <p></p>
 
+
    <p>
    <b><a href="/post/">Recent Posts</a></b>
-
    {{ range first 15 (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
    <div class="posttitle">
       {{ partial "post-title" . }}
    </div>
    {{ end }}
    
+   </p>
+
+   <p><br></br><br></br><br></br><br></br><br></br><br></br></p>
+      <p>
+     <a href="https://www.cs.virginia.edu/evans">David Evans</a>
    </p>
 
    </div>
@@ -54,6 +56,7 @@ cs3501 Spring 2021<br>
     {{ partial "post-full-summary" . }}
     {{ end }}
 
+   
 
     <footer>
       <nav>
