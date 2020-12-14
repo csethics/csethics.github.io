@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course Interest Form</title>
+      <link>https://csethics.github.io/form/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/form/</guid>
+      <description>If you are interested in joining the class, please submit this form:
+ https://forms.gle/xZECFhH7DNYHyc6X9  (or send me an email on ethical reasons why we shouldn&#39;t ask students to submit information like this using a google form). I&amp;rsquo;m not sure if the course will be over-subscribed, but if the course fills up, I will be able to add a small number of additional students to the course who I will select based on these responses.</description>
+    </item>
     
     <item>
       <title>Welcome</title>
@@ -19,6 +29,15 @@
       <guid>https://csethics.github.io/welcome/</guid>
       <description>This is the course website for &amp;ldquo;Everyday Ethics and Quotidian Quandries for Computer Scientists&amp;rdquo;, a new University of Virginia course on ethics targeted to undergraduate computer science students that will be offered for the first time in Spring 2021. Scheduled course meetings are Tuesdays and Thursdays, 9:30am – 10:45am, starting on 2 February 2021.
 Below, you can read a preliminary description of the course and about the reason for offering it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://csethics.github.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/</guid>
+      <description>Scientists are some of the most dangerous people in the world because we have this illusion of objectivity; there is this illusion of meritocracy and there is this illusion of searching for objective truth. Timnit Gebru (quoted in Dealing With Bias in Artificial Intelligence), New York Times, 19 November 2019)</description>
     </item>
     
   </channel>
