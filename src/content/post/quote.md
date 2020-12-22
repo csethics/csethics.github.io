@@ -1,3 +1,10 @@
++++
+date = "20 Dec 2020"
+draft = true
+title = "Quotes"
+author = "David Evans"
+slug = "quotes"
++++
 
 
 _Scientists are some of the most dangerous people in the world because
