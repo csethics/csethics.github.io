@@ -1,6 +1,6 @@
 baseurl = "https://csethics.github.io/"
 languageCode = "en-us"
-title = "Everyday Ethics and Quotidian Quandries for Computer Scientists"
+title = "Everyday Ethics and Quotidian Quandaries for Computer Scientists"
 subtitle = "UVA CS 3501 Spring 2021"
 copyright = ""
 theme = "toc"
