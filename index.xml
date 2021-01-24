@@ -6,10 +6,32 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Update</title>
+      <link>https://csethics.github.io/update/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/update/</guid>
+      <description>A draft syllabus is now posted: Syllabus. This will give more of an idea what is planned for the class, but is incomplete and likely to change before the class starts.
+The Discussion forum is now open!
+The semester hasn&amp;rsquo;t started, students in this class will be interested in this seminar on Monday at 4pm: Timnit Gebru: Computer Vision - Who is helped and who is harmed?
+I will post more details on the reading/viewing list soon, but if you&amp;rsquo;d like to get an early start, one of the first major readings we will do is Ruha Benjamin&amp;rsquo;s book, Race After Technology.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://csethics.github.io/resources/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/resources/</guid>
+      <description>Here are links to some useful resources relevent to this course. If you discover other resources you think would be helpful for students in the class, please let us know to add them here.
+Other Classes This sheet, collected by Casey Fisler summarize courses on tech ethics: Tech Ethics Curriculum. Her SIGSCE 2020 paper, What Do We Teach When We Teach Tech Ethics? A Syllabi Analysis provides an analysis of these courses.</description>
+    </item>
     
     <item>
       <title>Course Interest Form</title>
