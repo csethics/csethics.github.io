@@ -1,6 +1,6 @@
 +++
 date = "22 Jan 2021"
-draft = "true"
+draft = false
 title = "Syllabus"
 slug = "syllabus"
 +++
@@ -121,12 +121,12 @@ site for interactive discussion.
 
 # Course Format
 
-The course will be divided into five [TODO?] teams of approximately
-five students each. Most weeks, one of the teams will be responsible
-for leading the class; one of the teams will be responsible for
-writing the blog post about the week; and the remaining students will
-be responsible for writing short reaction posts and engaging in the
-discussion both on-line and in class.
+The course will be divided into five teams of five students each. Most
+weeks, one of the teams will be responsible for leading the class; one
+of the teams will be responsible for writing the blog post about the
+week; and the remaining students will be responsible for writing short
+reaction posts and engaging in the discussion both on-line and in
+class.
 
 The standard week for the course will be something like this:
 
