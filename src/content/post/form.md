@@ -6,12 +6,17 @@ author = "David Evans"
 slug = "form"
 +++
 
+
+   <div class="yellownote">
+   This post is preserved for persistence, but I am no longer taking additional students in the class through form submissions.
+   </div>
+   
 If you are interested in joining the class, please submit this form:
 
 <center>
 <a href="https://forms.gle/xZECFhH7DNYHyc6X9"><em>https://forms.gle/xZECFhH7DNYHyc6X9</em></a>
 </center>
-
+###
 (or send me an email on ethical reasons why we shouldn't ask students
 to submit information like this using a google form).
 
