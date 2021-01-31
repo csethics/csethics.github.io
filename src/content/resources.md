@@ -26,8 +26,7 @@ Some courses that were particularly influential on me include:
 - Seny Kamara's course at Brown University: [Algorithms for the People](http://cs.brown.edu/~seny/2952v/) 
 - Phillip Rogaway's course at UC Davis: [Ethics in an Age of Technology](https://www.cs.ucdavis.edu/~rogaway/classes/188/fall19/) ([Reading List](https://www.cs.ucdavis.edu/~rogaway/classes/188/materials/reader.html))
 - Steve Bellovin's course at Columbia University: [Computers and Society](https://www.cs.columbia.edu/~smb/classes/s18/lectures.html)
-
-[Syllabus/Readings](https://dam-prod.media.mit.edu/x/2018/07/30/Syllabus%20Ethics%20and%20Governance%20of%20AI%20.pdf), [](https://h2o.law.harvard.edu/playlists/53282(
+- Joi Ito and Jonathan Zittrain's MIT course on _The Ethics and Governance of AI_: [Syllabus/Readings](https://dam-prod.media.mit.edu/x/2018/07/30/Syllabus%20Ethics%20and%20Governance%20of%20AI%20.pdf), [Playlist](https://h2o.law.harvard.edu/playlists/53282)
 
 - Moritz Hardt's UC Berkeley course: [Fairness in Machine Learning](https://fairmlclass.github.io/)
 - Brent Hecht's Northwestern University course: [Algorithms and Society](https://www.psacomputing.org/algsoc/schedule/)
