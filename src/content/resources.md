@@ -31,6 +31,7 @@ Some courses that were particularly influential on me include:
 
 - Moritz Hardt's UC Berkeley course: [Fairness in Machine Learning](https://fairmlclass.github.io/)
 - Brent Hecht's Northwestern University course: [Algorithms and Society](https://www.psacomputing.org/algsoc/schedule/)
+- Alex Hanna's UC Bekeley course: [_Data, Power, and Infrastructure_](https://docs.google.com/document/d/1RRt_J6rjjadaErDkIY3jhkwISLrbh_ovamj0TMdVd2I/edit)
 
 
 ## Suggestions
