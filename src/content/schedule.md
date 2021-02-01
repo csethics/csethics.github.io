@@ -1,5 +1,5 @@
 +++
-date = "02 Feb 2021"
+date = "01 Feb 2021"
 draft = false
 title = "Schedule"
 slug = "schedule"

@@ -6,10 +6,21 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://csethics.github.io/schedule/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/schedule/</guid>
+      <description>The schedule details will be filled in as the semester progresses (and future weeks are subject to change, but as much as is known is documented here).
+Week 1: Introduction Tuesday, 2 February Reading assignment: Ian Barbour, Ethics in an Age of Technology
+This is from a 1993 book based on a series of lectures Barbour gave in 1989. Barbour considers three different views of technology: (1) Technology as Liberator, (2) Technology as Threat, and (3) Technology as Instrument of Power.</description>
+    </item>
     
     <item>
       <title>Update</title>
@@ -60,15 +71,6 @@ Most decisions today are made by software, most of the rules of society are inte
       <guid>https://csethics.github.io/welcome/</guid>
       <description>This is the course website for &amp;ldquo;Everyday Ethics and Quotidian Quandaries for Computer Scientists&amp;rdquo;, a new University of Virginia course on ethics targeted to undergraduate computer science students that will be offered for the first time in Spring 2021. Scheduled course meetings are Tuesdays and Thursdays, 9:30am – 10:45am, starting on 2 February 2021.
 Below, you can read a preliminary description of the course and about the reason for offering it.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://csethics.github.io/topics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/topics/</guid>
-      <description>Black Mirror &amp;ldquo;Nosedive&amp;rdquo;</description>
     </item>
     
   </channel>
