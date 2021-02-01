@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://csethics.github.io/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://csethics.github.io/tags/</loc>
   </url>
   

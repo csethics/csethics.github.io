@@ -162,9 +162,32 @@ is the students to do projects that will be valuable and worthwhile to
 them personally as experience, but that will result in something of
 value beyond just as a course project.
 
+Some ideas for potential projects include:
+
+- Select a software system deployed at UVA (e.g., SIS or anything used
+  by this course) and evaluate it from an ethical viewpoint and
+  considering how it could be designed to better serve some ethical
+  goal.
+
+- Select a research paper in a recent conference, and evaluate its
+  ethical aspects.
+
+- Write a paper that explores some ethical issue in computing.
+
+- Develop a web or mobile application that illustrates something
+  relevant to this class (e.g., [_White Collar Early Warning
+  System_](https://whitecollar.thenewinquiry.com/)).
+
+- Consider a professional code of ethics (e.g., [ACM Code of Ethics
+  and Processional Conduct](https://www.acm.org/code-of-ethics)) and
+  evaluate how useful it is in guiding difficult decisions as well as
+  the ethical framework it assumes; evaluate how well the ACM (or
+  other organization) actually follows its own ethics code.
+
 There will be several intermediate project milestones during the
-semester.
- 
+semester, listed on the course schedule, and students will present
+their projects during the final week of class (May 4 and May 6).
+
 ## Assessment
 
 Grades will be determined based on four main components:
