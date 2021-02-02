@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>https://csethics.github.io/week1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://csethics.github.io/tags/</loc>
   </url>
   
