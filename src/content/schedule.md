@@ -22,7 +22,7 @@ This is from a 1993 book based on a series of lectures Barbour gave in
 Technology as Liberator, (2) Technology as Threat, and (3) Technology
 as Instrument of Power.
 
-Before **Wednesday at 6:59pm**, post a response in the [Discussion
+Before **Wednesday at 9:29pm**, post a response in the [Discussion
 Site](https://github.com/csethics/csethics.github.io/discussions/7#discussion-2560242)
 (see details there on what your response should be). (Note that it
 will get harder to post a satisfactory response as more students have
