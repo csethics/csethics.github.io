@@ -3,7 +3,7 @@ date = "02 Feb 2021"
 draft = false
 title = "class1"
 author = "David Evans"
-slug = "class1"
+slug = "First Class"
 +++
 
 ### Tuesday, 2 February
