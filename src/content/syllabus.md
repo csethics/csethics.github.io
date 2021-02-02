@@ -5,10 +5,6 @@ title = "Syllabus"
 slug = "syllabus"
 +++a
 
-   <div class="yellownote">
-   This is a draft preview of the course syllabus. It is subject to change until the class begins on February 2.
-   </div>
-
 # Overview
 
 **Course Description:**
