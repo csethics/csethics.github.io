@@ -7,7 +7,9 @@ slug = "class1"
 +++
 
 ### Tuesday, 2 February
- 
+
+[Slides [PDF]](https://www.dropbox.com/s/yzuxmgz7sruablj/class1-post.pdf?dl=0)
+
 Please submit this survey by **4:59pm today** (Tuesday): [Initial Course Survey](https://docs.google.com/forms/d/e/1FAIpQLSc5fYmEdj651zEzQXu_uADKcyQFkOHmxVXqBazlTK-FDEcmlg/viewform?usp=sf_link)
 
 **Reading assignment:** Ian Barbour, [_Ethics in an Age of Technology_](/docs/barbour-views-of-technology.pdf)
