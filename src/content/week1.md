@@ -13,3 +13,9 @@ Stanford Encyclopedia of Philosophy:
 Internet in 1989
 
 [MIT Goes on the 5-year Plan](https://books.google.com/books?id=1tFFnOMCvv4C&pg=PA269#v=onepage&q&f=false), PC Magazine, 20 March 1984
+
+
+[First Major Usenix Spam](https://groups.google.com/g/alt.pub.coffeehouse.amethyst/c/XRLnYe0_zK8/m/l5eFCesyeEcJ)
+
+
+[_We Worked Together on the Internet. Last Week, He Stormed the Capitol._](https://www.nytimes.com/2021/01/10/business/media/capitol-anthime-gionet-buzzfeed-vine.html)

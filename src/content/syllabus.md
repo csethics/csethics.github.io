@@ -3,7 +3,7 @@ date = "22 Jan 2021"
 draft = false
 title = "Syllabus"
 slug = "syllabus"
-+++
++++a
 
    <div class="yellownote">
    This is a draft preview of the course syllabus. It is subject to change until the class begins on February 2.
@@ -130,7 +130,7 @@ class.
 
 The standard week for the course will be something like this:
 
-**Thursday (or earlier):** Reading/Viewing Assignment specified
+**Wednesday night (or earlier):** Reading/Viewing Assignment specified
 
 **Sunday, 10:59pm:** Initial responses to reading assignment due (posted in Discussions forum)
 

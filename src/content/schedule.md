@@ -13,6 +13,8 @@ documented here).
 
 ### Tuesday, 2 February
 
+Please submit this survey by **4:59pm today** (Tuesday): [Initial Course Survey](https://docs.google.com/forms/d/e/1FAIpQLSc5fYmEdj651zEzQXu_uADKcyQFkOHmxVXqBazlTK-FDEcmlg/viewform?usp=sf_link)
+
 **Reading assignment:** Ian Barbour, [_Ethics in an Age of Technology_](/docs/barbour-views-of-technology.pdf)
 
 This is from a 1993 book based on a series of lectures Barbour gave in
@@ -43,7 +45,7 @@ Discussion of Barbour's views of technology.
 
 # Week 2: _Race Against Technology_, Introduction and Chapter 1 (Engineered Inequity)
 
-Lead: Team 1; Blog: Team 3
+Lead: Team 1; Blog: Team 4
 
 **Reading assignment:**
 - Ruha Benjamin, [_Race After Technology_](https://www.ruhabenjamin.com/race-after-technology), Introduction and Chapter 1 
@@ -61,7 +63,7 @@ Discussion reponses are due (for the non-Lead team) by **10:59pm** on **Sunday, 
 
 # Week 3: _Race Against Technology_, Chapters 2 (_Default Discrimination_) and 3 (_Coded Exposure_)
 
-Lead: Team 2; Blog: Team 4
+Lead: Team 2; Blog: Team 5
 
 **Reading assignment:** (to be completed)
 
@@ -72,7 +74,7 @@ Lead: Team 2; Blog: Team 4
 
 # Week 4: _Race Against Technology_, Chapters 4 (_Technological Benevolence_) and 5 (_Retooling Solidarity, Reimagining Justice_)
 
-Lead: Team 3; Blog: Team 5
+Lead: Team 3; Blog: Team 1
 
 **Reading assignment:** (to be completed)
 
@@ -83,7 +85,7 @@ Lead: Team 3; Blog: Team 5
 
 # Week 5: Topic TBD
 
-Lead: Team 4; Blog: Team 1
+Lead: Team 4; Blog: Team 2
 
 ### Tuesday, 2 March
 
@@ -97,7 +99,7 @@ No class on Tuesday, 9 March (Spring Break Day)
 
 # Week 7: Topic TBD
 
-Lead: Team 5; Blog: Team 2
+Lead: Team 5; Blog: Team 3
 
 ### Tuesday, 16 March
 
@@ -106,7 +108,7 @@ Lead: Team 5; Blog: Team 2
 
 # Week 8: Topic TBD
 
-Lead: Team 1; Blog: Team 3
+Lead: Team 1; Blog: Team 4
 
 ### Tuesday, 23 March
 
@@ -114,7 +116,7 @@ Lead: Team 1; Blog: Team 3
 
 # Week 9: Topic TBD
 
-Lead: Team 2; Blog: Team 4
+Lead: Team 2; Blog: Team 5
 
 ### Tuesday, 30 March
 
@@ -122,7 +124,7 @@ Lead: Team 2; Blog: Team 4
 
 # Week 10: Topic TBD
 
-Lead: Team 3; Blog: Team 5
+Lead: Team 3; Blog: Team 1
 
 ### Tuesday, 6 April
 
@@ -137,21 +139,21 @@ No class on Tursday, 15 April (Spring Break Day)
 
 # Week 12: Topic TBD
 
-Lead: Team 4; Blog: Team 1
+Lead: Team 4; Blog: Team 2
 
 ### Tuesday, 20 April
 
 ### Thursday, 22 April
 
-# Week 14: Topic TBD
+# Week 13: Topic TBD
 
-Lead: Team 5; Blog: Team 2
+Lead: Team 5; Blog: Team 3
 
 ### Tuesday, 27 April
 
 ### Thursday, 29 April
 
-# Week 15: Project Presentations
+# Week 14: Project Presentations
 
 ### Tuesday, 4 May
 
