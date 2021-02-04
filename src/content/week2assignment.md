@@ -1,6 +1,6 @@
 +++
 date = "04 Feb 2021"
-draft = true
+draft = false
 title = "Assignments for Week 2"
 author = "David Evans"
 slug = "week2assignment"
