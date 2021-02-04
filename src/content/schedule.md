@@ -43,7 +43,7 @@ Noble](https://www.barnesandnoble.com/w/race-after-technology-ruha-benjamin/1130
 
 Discussion of Barbour's views of technology.
 
-# Week 2: _Race Against Technology_, Introduction and Chapter 1 (Engineered Inequity)
+# Week 2: _Race After Technology_, Introduction and Chapter 1 (Engineered Inequity)
 
 Lead: Team 1; Blog: Team 4
 
@@ -61,7 +61,7 @@ Discussion reponses are due (for the non-Lead team) by **10:59pm** on **Sunday, 
 
 ### Thursday, 11 February
 
-# Week 3: _Race Against Technology_, Chapters 2 (_Default Discrimination_) and 3 (_Coded Exposure_)
+# Week 3: _Race After Technology_, Chapters 2 (_Default Discrimination_) and 3 (_Coded Exposure_)
 
 Lead: Team 2; Blog: Team 5
 
@@ -72,7 +72,7 @@ Lead: Team 2; Blog: Team 5
 ### Thursday, 18 February
 
 
-# Week 4: _Race Against Technology_, Chapters 4 (_Technological Benevolence_) and 5 (_Retooling Solidarity, Reimagining Justice_)
+# Week 4: _Race After Technology_, Chapters 4 (_Technological Benevolence_) and 5 (_Retooling Solidarity, Reimagining Justice_)
 
 Lead: Team 3; Blog: Team 1
 
