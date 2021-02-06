@@ -16,7 +16,7 @@ Lead: Team 1; Blog: Team 4
 Optional additional readings:
 
 - Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan. [_Semantics derived automatically from language corpora contain human-like biases_](/docs/caliskan-language-biases.pdf), Science, 14 April 2017.
-- Latanya Sweeney. [_Discrimination in Online Ad Delivery_](/sweeney-discrimination-ads.pdf), ACM Queue, 2013.
+- Latanya Sweeney. [_Discrimination in Online Ad Delivery_](/docs/sweeney-discrimination-ads.pdf), ACM Queue, 2013.
 
 **Response assignments for Team 2 and Team 4:**
 
