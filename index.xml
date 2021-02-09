@@ -6,7 +6,7 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,159 @@
 Reading assignment: (for everyone)
  Ruha Benjamin, Race After Technology, Introduction and Chapter 1 John McWhorter, &amp;lsquo;Racist&amp;rsquo; Technology Is a Bug—Not a Crime, Time Magazine, 12 September 2016  Optional additional readings:
  Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan. Semantics derived automatically from language corpora contain human-like biases, Science, 14 April 2017. Latanya Sweeney. Discrimination in Online Ad Delivery, ACM Queue, 2013.  Response assignments for Team 2 and Team 4:</description>
+    </item>
+    
+    <item>
+      <title>Class 2: Views of Technology</title>
+      <link>https://csethics.github.io/class2/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/class2/</guid>
+      <description>Thursday, 4 February Slides for Class 2: PDF
+Zoom as Unethical Software
+VMRay Analyzer Report on Zoom
+FTC Requires Zoom to Enhance its Security Practices as Part of Settlement, November 2020
+Ethics of Vaccination
+Novel 2019 coronavirus genome, 10 January 2020
+Algorithms are deciding who gets the first vaccines. Should we trust them?, Washington Post, 23 Dec 2020
+CDC Slides:
+Mary Chamberland, Ethical Principles for Phased Allocation of COVID-19 Vaccines, 30 October 2020</description>
+    </item>
+    
+    <item>
+      <title>Week 10</title>
+      <link>https://csethics.github.io/week10/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week10/</guid>
+      <description>6/8 April
+Lead: Team 3; Blog: Team 1
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 11</title>
+      <link>https://csethics.github.io/week11/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week11/</guid>
+      <description>13 April</description>
+    </item>
+    
+    <item>
+      <title>Week 12</title>
+      <link>https://csethics.github.io/week12/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week12/</guid>
+      <description>20/22 April
+Lead: Team 4; Blog: Team 2
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 13</title>
+      <link>https://csethics.github.io/week13/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week13/</guid>
+      <description>27/29 April
+Lead: Team 5; Blog: Team 3
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 14</title>
+      <link>https://csethics.github.io/week14/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week14/</guid>
+      <description>4/6 May
+Project Presentations </description>
+    </item>
+    
+    <item>
+      <title>Week 3</title>
+      <link>https://csethics.github.io/week3/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week3/</guid>
+      <description>16/18 February
+Lead: Team 2; Blog: Team 5
+Reading assignment: (for everyone)
+Race After Technology, Chapters 2 (Default Discrimination) and 3 (Coded Exposure)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>https://csethics.github.io/week4/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week4/</guid>
+      <description>23 – 25 February
+Lead: Team 3; Blog: Team 1
+Reading assignment: (for everyone)
+Race After Technology, Chapters 4 (Technological Benevolence) and 5 (Retooling Solidarity, Reimagining Justice)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 5</title>
+      <link>https://csethics.github.io/week5/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week5/</guid>
+      <description>2/4 March Lead: Team 4; Blog: Team 2
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 6</title>
+      <link>https://csethics.github.io/week6/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week6/</guid>
+      <description>11 March
+Project Ideas </description>
+    </item>
+    
+    <item>
+      <title>Week 7</title>
+      <link>https://csethics.github.io/week7/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week7/</guid>
+      <description>16/18 March Lead: Team 5; Blog: Team 3
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 8</title>
+      <link>https://csethics.github.io/week8/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week8/</guid>
+      <description>23/25 March Lead: Team 1; Blog: Team 4
+Reading assignment: (for everyone)
+TBD</description>
+    </item>
+    
+    <item>
+      <title>Week 9</title>
+      <link>https://csethics.github.io/week9/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week9/</guid>
+      <description>30 March/1 April
+Lead: Team 2; Blog: Team 5
+Reading assignment: (for everyone)
+TBD</description>
     </item>
     
     <item>
@@ -43,9 +196,7 @@ Before Wednesday at 9:29pm, post a response in the Discussion Site (see details 
       
       <guid>https://csethics.github.io/schedule/</guid>
       <description>The schedule details will be filled in as the semester progresses (and future weeks are subject to change, but as much as is known is documented here).
-Week 1: Introduction Tuesday, 2 February Please submit this survey by 4:59pm today (Tuesday): Initial Course Survey
-Reading assignment: Ian Barbour, Ethics in an Age of Technology
-This is from a 1993 book based on a series of lectures Barbour gave in 1989. Barbour considers three different views of technology: (1) Technology as Liberator, (2) Technology as Threat, and (3) Technology as Instrument of Power.</description>
+  Week Lead Team Blog Team Topic     1: 2/4 Feb Dave Introduction; Views of Technology   2: 9/11 Feb 14 Race Against Technology, Intro, Ch 1    3: 16/18 Feb 25 Race Against Technology, Ch 2&amp;ndash;3    4: 23/25 Feb 31 Race Against Technology, Ch 4&amp;ndash;5    5: 2/4 Mar 42 Deepfakes    6: 11 Mar Dave Project Ideas Discussion (Break day 9 Mar)    7: 16/18 Mar 53 Social Scoring    8: 23/25 Mar 14 UI Design Ethics    9: 30 Mar/1 Apr 25 Recommendations and Manipulation    10: 6/8 Apr 31 Privacy and Surveillance    11: 13 Apr Dave TBD (Break day 15 Apr)    12: 20/22 Apr 42 Centralization and Anti-trust    13: 27/29 Apr 53 End-to-end Encryption    14: 4/6 May Everyone Project Presentations     Typical Biweekly Schedule    Week Monday Tuesday Wednesday Thursday Sunday      Week N (led by team E)   Team A: have initial idea ready for Week N+1</description>
     </item>
     
     <item>
@@ -115,13 +266,10 @@ Below, you can read a preliminary description of the course and about the reason
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://csethics.github.io/week1/</guid>
-      <description>Mary Chamberland, Ethical Principles for Phased Allocation of COVID-19 Vaccines (slides for CDC presentation on vaccine allocation)
-Kathleen Dooling, Phased Allocation of COVID-19 Vaccines (slides with the tables)
-Stanford Encyclopedia of Philosophy: Consequentialism
-Internet in 1989
-MIT Goes on the 5-year Plan, PC Magazine, 20 March 1984
-First Major Usenix Spam
-We Worked Together on the Internet. Last Week, He Stormed the Capitol.</description>
+      <description>Week 1: Introduction Tuesday, 2 February Please submit this survey by 4:59pm today (Tuesday): Initial Course Survey
+Reading assignment: Ian Barbour, Ethics in an Age of Technology
+This is from a 1993 book based on a series of lectures Barbour gave in 1989. Barbour considers three different views of technology: (1) Technology as Liberator, (2) Technology as Threat, and (3) Technology as Instrument of Power.
+Before Wednesday at 9:29pm, post a response in the Discussion Site (see details there on what your response should be).</description>
     </item>
     
   </channel>

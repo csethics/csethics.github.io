@@ -9,142 +9,177 @@ The schedule details will be filled in as the semester progresses (and
 future weeks are subject to change, but as much as is known is
 documented here).
 
-# Week 1: Introduction
+<table class="schedule">
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Lead Team</th>
+<th align="center">Blog Team</th>
+<th align="center">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1: 2/4 Feb</td>
+<td colspan=2 align="center">Dave</td>
+<td><a href="/class1/">Introduction</a>; <a href="/class2/">Views of Technology</a></a></td>
+</tr>
+<tr>
+<td>2: 9/11 Feb</td>
+<td>1</td><td>4</td>
+<td><a href="/week2assignments"><em>Race Against Technology</em>, Intro, Ch 1</a>
+</td>
+</tr>
 
-### Tuesday, 2 February
- 
-Please submit this survey by **4:59pm today** (Tuesday): [Initial Course Survey](https://docs.google.com/forms/d/e/1FAIpQLSc5fYmEdj651zEzQXu_uADKcyQFkOHmxVXqBazlTK-FDEcmlg/viewform?usp=sf_link)
+<tr>
+<td>3: 16/18 Feb</td>
+<td>2</td><td>5</td>
+<td><a href="/week3"><em>Race Against Technology</em>, Ch 2&ndash;3</a>
+</td>
+</tr>
 
-**Reading assignment:** Ian Barbour, [_Ethics in an Age of Technology_](/docs/barbour-views-of-technology.pdf)
+<tr>
+<td>4: 23/25 Feb</td>
+<td>3</td><td>1</td>
+<td><a href="/week4"><em>Race Against Technology</em>, Ch 4&ndash;5</a>
+</td>
+</tr>
 
-This is from a 1993 book based on a series of lectures Barbour gave in
-1989. Barbour considers three different views of technology: (1)
-Technology as Liberator, (2) Technology as Threat, and (3) Technology
-as Instrument of Power.
+<tr>
+<td>5: 2/4 Mar</td>
+<td>4</td><td>2</td>
+<td><a href="/week5">Deepfakes</a>
+</td>
+</tr>
 
-Before **Wednesday at 9:29pm**, post a response in the [Discussion
-Site](https://github.com/csethics/csethics.github.io/discussions/7#discussion-2560242)
-(see details there on what your response should be). (Note that it
-will get harder to post a satisfactory response as more students have
-posted, so it is advantageous to do this earlier and have more
-opportunities for discussion.)
+<tr>
+<td>6: 11 Mar</td>
+<td colspan=2>Dave</td>
+<td><a href="/week6">Project Ideas Discussion</a>
+(Break day 9 Mar)
+</td>
+</tr>
 
-You will need to acquire Ruha Benjamin's book, [_Race After
-Technology: Abolitionist Tools for the New Jim
-Code_](https://www.ruhabenjamin.com/race-after-technology) which will
-be the main reading for Weeks 2, 3, and 4. Here are some possible
-buying options:
-[Amazon](https://www.amazon.com/Race-After-Technology-Abolitionist-Tools/dp/1509526404),
-[Barnes &amp;
-Noble](https://www.barnesandnoble.com/w/race-after-technology-ruha-benjamin/1130411395),
-[Bookshop.org](https://bookshop.org/books/race-after-technology-abolitionist-tools-for-the-new-jim-code/9781509526406). 
+<tr>
+<td>7: 16/18 Mar</td>
+<td>5</td><td>3</td>
+<td><a href="/week7">Social Scoring</a>
+</td>
+</tr>
 
-### Thursday, 4 February
+<tr>
+<td>8: 23/25 Mar</td>
+<td>1</td><td>4</td>
+<td><a href="/week8">UI Design Ethics</a>
+</td>
+</tr>
 
-Discussion of Barbour's views of technology.
+<tr>
+<td>9: 30 Mar/1 Apr</td>
+<td>2</td><td>5</td>
+<td><a href="/week9">Recommendations and Manipulation</a>
+</td>
+</tr>
 
-# Week 2: _Race After Technology_, Introduction and Chapter 1 (Engineered Inequity)
+<tr>
+<td>10: 6/8 Apr</td>
+<td>3</td><td>1</td>
+<td><a href="/week10">Privacy and Surveillance</a>
+</td>
+</tr>
 
-[Week 2 Assignment](/week2assignment)
+<tr>
+<td>11: 13 Apr</td>
+<td colspan=2>Dave</td>
+<td><a href="/week11">TBD</a> (Break day 15 Apr)
+</td>
+</tr>
 
-### Tuesday, 9 February
+<tr>
+<td>12: 20/22 Apr</td>
+<td>4</td><td>2</td>
+<td><a href="/week12">Centralization and Anti-trust</a>
+</td>
+</tr>
 
-### Thursday, 11 February
+<tr>
+<td>13: 27/29 Apr</td>
+<td>5</td><td>3</td>
+<td><a href="/week13">End-to-end Encryption</a>
+</td>
+</tr>
 
-# Week 3: _Race After Technology_, Chapters 2 (_Default Discrimination_) and 3 (_Coded Exposure_)
+<tr>
+<td>14: 4/6 May</td>
+<td colspan=2>Everyone</td>
+<td><a href="/week14">Project Presentations</a>
+</td>
+</tr>
 
-Lead: Team 2; Blog: Team 5
+</tbody>
+</table>
 
-**Reading assignment:** (to be completed)
+# Typical Biweekly Schedule
 
-### Tuesday, 16 February
-
-### Thursday, 18 February
-
-
-# Week 4: _Race After Technology_, Chapters 4 (_Technological Benevolence_) and 5 (_Retooling Solidarity, Reimagining Justice_)
-
-Lead: Team 3; Blog: Team 1
-
-**Reading assignment:** (to be completed)
-
-### Tuesday, 23 February
-
-### Thursday, 25 February
-
-
-# Week 5: Topic TBD
-
-Lead: Team 4; Blog: Team 2
-
-### Tuesday, 2 March
-
-### Thursday, 4 March
-
-# Week 6: Project Ideas
-
-No class on Tuesday, 9 March (Spring Break Day)
-
-### Thursday, 11 March: Project Ideas Discussion
-
-# Week 7: Topic TBD
-
-Lead: Team 5; Blog: Team 3
-
-### Tuesday, 16 March
-
-### Thursday, 18 March
-
-
-# Week 8: Topic TBD
-
-Lead: Team 1; Blog: Team 4
-
-### Tuesday, 23 March
-
-### Thursday, 25 March
-
-# Week 9: Topic TBD
-
-Lead: Team 2; Blog: Team 5
-
-### Tuesday, 30 March
-
-### Thursday, 1 April
-
-# Week 10: Topic TBD
-
-Lead: Team 3; Blog: Team 1
-
-### Tuesday, 6 April
-
-### Thursday, 8 April
-
-# Week 11:
-
-### Tuesday, 13 April
-
-No class on Tursday, 15 April (Spring Break Day)
-
-
-# Week 12: Topic TBD
-
-Lead: Team 4; Blog: Team 2
-
-### Tuesday, 20 April
-
-### Thursday, 22 April
-
-# Week 13: Topic TBD
-
-Lead: Team 5; Blog: Team 3
-
-### Tuesday, 27 April
-
-### Thursday, 29 April
-
-# Week 14: Project Presentations
-
-### Tuesday, 4 May
-
-### Thursday, 6 May
+<small>
+<table class="schedule">
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Monday</th>
+<th align="center">Tuesday</th>
+<th align="center">Wednesday</th>
+<th align="center">Thursday</th>
+<th align="center">Sunday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>Week N</b> (led by team E)
+</td>
+<td>
+<b>Team A</b>: have initial idea ready for Week N+1<br>
+<b>Teams B and D</b>: Responses due (5:59pm)<Br>
+<b>Team E</b>: meet with Dave (10am) to go over plans for Week N<br>
+</td>
+<td>
+<b>Everyone</b> (led by <b>Team E</b>): Class meeting (9:30-10:45am)<br>
+<b>Team A</b>: meet with Dave after class to discuss plan for Week N+1<br>
+<b>Team E</b>: post class assignment for Thursday<br>
+</td>
+<td>
+<b>Team A</b>/Dave: Finalize assignment for Week N+1
+</td>
+<td>
+<b>Everyone</b> (led by <b>Team E</b>): Class meeting (9:30-10:45am)<br>
+</td>
+<td>
+<B>Team C</b>: Finish Blog for Week N (5:59pm)<br>
+<b>Teams B and D</b> : Responses due (10:59pm)
+</td>
+</tr>
+<tr>
+<td>
+<b>Week N+1</b> (led by Team A)
+<td>
+<b>Team C</b> and <b>E</b>: Week N+1 Responses due (5:59pm)<br>
+<b>Team E</b>: meet with Dave (10am) to go over plans for Week N<br>
+</td>
+<td>
+<b>Everyone</b> (led by <b>Team A</b>): Class meeting (9:30-10:45am)<br>
+</td>
+<td>
+<b>Team B</b>/Dave: Finalize assignment for Week N+2
+</td>
+<td>
+<b>Everyone</b> (led by <b>Team A</b>): Class meeting (9:30-10:45am)<br>
+</td>
+<td>
+<b>Team D</b>: Finish Blog for Week N (5:59pm)<br>
+<b>Teams C</b> and <b>E</b>: Responses due (10:59pm)
+</td>
+</tr>
+</tbody>
+</table>
+</small>

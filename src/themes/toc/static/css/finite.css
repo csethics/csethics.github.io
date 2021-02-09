@@ -729,6 +729,12 @@ blockquote, blockquote p {
 }
 
 .schedule th {
+    border: 1px solid #ddd;
+    text-align: center;
+}    
+
+.schedule td {
+    border: 1px solid #ddd;
     text-align: center;
 }    
 
