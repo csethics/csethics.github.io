@@ -27,7 +27,7 @@ documented here).
 <tr>
 <td>2: 9/11 Feb</td>
 <td>1</td><td>4</td>
-<td><a href="/week2assignments"><em>Race Against Technology</em>, Intro, Ch 1</a>
+<td><a href="/week2"><em>Race Against Technology</em>, Intro, Ch 1</a>
 </td>
 </tr>
 
