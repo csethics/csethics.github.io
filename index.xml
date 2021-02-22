@@ -6,10 +6,33 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 3</title>
+      <link>https://csethics.github.io/week3/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week3/</guid>
+      <description>16/18 February
+Lead: Team 2
+Reading assignment: (for everyone)
+ Ruha Benjamin, Race After Technology, Chapters 2 and 3. Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, Machine Bias (Risk Assessments in Criminal Sentencing), ProPublica, 23 May 2016.  Optional additional readings:
+ Cynthia Rudin. Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nature, May 2019. Cynthia Rudin, Caroline Wang, and Beau Coker.</description>
+    </item>
+    
+    <item>
+      <title>Week 3 Summary</title>
+      <link>https://csethics.github.io/week3summary/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week3summary/</guid>
+      <description>The blog summary for week 3 is now posted: Week 3.
+Thanks to Team 5 for writing the blog, and to Team 2 for leading!</description>
+    </item>
     
     <item>
       <title>Week 4 Readings</title>
@@ -146,19 +169,6 @@ Project Presentations </description>
  Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan. Semantics derived automatically from language corpora contain human-like biases, Science, 14 April 2017. Latanya Sweeney. Discrimination in Online Ad Delivery, ACM Queue, 2013.  On-Line Discussion
 Class Meetings Lead by Team 1
 Slides for Week 2 [PDF]</description>
-    </item>
-    
-    <item>
-      <title>Week 3</title>
-      <link>https://csethics.github.io/week3/</link>
-      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/week3/</guid>
-      <description>16/18 February
-Lead: Team 2; Blog: Team 5
-Reading assignment: (for everyone)
-Race After Technology, Chapters 2 (Default Discrimination) and 3 (Coded Exposure)
-TBD</description>
     </item>
     
     <item>
