@@ -6,10 +6,31 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 4</title>
+      <link>https://csethics.github.io/week4/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week4/</guid>
+      <description>Week 4 (Feb 23/25) Lead: Team 3
+Required Readings (for everyone): The remaining two chapters in Ruha Benjamin&amp;rsquo;s book, and two blog posts on explaining ML models:
+ Race After Technology, Chapter 4 (Technological Benevolence) and Chapter 5 (Retooling Solidarity, Reimagining Justice) Marco Tulio Ribeiro, Sameer Singh and Carlos Guestrin. Local Interpretable Model-Agnostic Explanations (LIME): An Introduction. O&amp;rsquo;Reilly, 12 August 2016. Wojtek Kretowicz, Be careful! Some model explanations can be fooled.</description>
+    </item>
+    
+    <item>
+      <title>Week 4 Summary</title>
+      <link>https://csethics.github.io/week4summary/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week4summary/</guid>
+      <description>The blog summary for week 4 is now posted: Week 4.
+Thanks to Team 1 for writing the blog, and to Team 3 for leading!</description>
+    </item>
     
     <item>
       <title>Week 5 Readings</title>
@@ -178,19 +199,6 @@ Project Presentations </description>
  Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan. Semantics derived automatically from language corpora contain human-like biases, Science, 14 April 2017. Latanya Sweeney. Discrimination in Online Ad Delivery, ACM Queue, 2013.  On-Line Discussion
 Class Meetings Lead by Team 1
 Slides for Week 2 [PDF]</description>
-    </item>
-    
-    <item>
-      <title>Week 4</title>
-      <link>https://csethics.github.io/week4/</link>
-      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/week4/</guid>
-      <description>23 – 25 February
-Lead: Team 3; Blog: Team 1
-Reading assignment: (for everyone)
-Race After Technology, Chapters 4 (Technological Benevolence) and 5 (Retooling Solidarity, Reimagining Justice)
-TBD</description>
     </item>
     
     <item>
