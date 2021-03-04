@@ -36,6 +36,11 @@ the underlying code of operating systems"?
 
 Response assignments for **Team 2** and **Team 5**: By **5:59pm** on **Monday, 22 February**, post a response to the readings that either (1) responds constructively to one of the initial postings, or (2) does any of the options above, but without duplicating points that were already made.
 
+# Class Meetings
+
+**Lead by Team 3**
+
+[Slides for Week 4 [PDF]](https://www.dropbox.com/s/iqjtuox4z54xx0h/week4.pdf?dl=0)
 
 # Blog Summary
 
