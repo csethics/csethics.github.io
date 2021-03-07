@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 5 Summary</title>
+      <link>https://csethics.github.io/week5summary/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week5summary/</guid>
+      <description>The blog summary for week 5 is now posted: Week 5. Thanks to Team 2 for writing the blog, and to Team 4 for leading!
+ As a reminder, we have a break day on Tuesday this week, and will discuss projects on Thursday. There&amp;rsquo;s no reading assignment for this week, but you may want to get started early on the Week 7 readings.</description>
+    </item>
     
     <item>
       <title>Week 6 and 7</title>
