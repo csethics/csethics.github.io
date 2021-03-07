@@ -6,10 +6,21 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 5</title>
+      <link>https://csethics.github.io/week5/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week5/</guid>
+      <description>Week 5 (March 2/4): Deep Fakes Lead: Team 4
+Required Readings and Viewings (for everyone):
+ Hany Farid, Creating, Weaponizing, and Detecting Deep Fakes. Keynote Talk, Spark + AI Summit 2020. (video, 18:57) Airen Petalbert, Deepfake Examples That Prove How Scary and Amusing This Technology Is, Tech Times, 30 December 2019. Danielle Citron, How deep fakes undermine trust and threaten democracy TED Talk. July 2019. (video, 13:09) Nathan Colaner and Michael J.</description>
+    </item>
     
     <item>
       <title>Week 6 and 7</title>
@@ -209,17 +220,6 @@ Project Presentations </description>
  Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan. Semantics derived automatically from language corpora contain human-like biases, Science, 14 April 2017. Latanya Sweeney. Discrimination in Online Ad Delivery, ACM Queue, 2013.  On-Line Discussion
 Class Meetings Lead by Team 1
 Slides for Week 2 [PDF]</description>
-    </item>
-    
-    <item>
-      <title>Week 5</title>
-      <link>https://csethics.github.io/week5/</link>
-      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/week5/</guid>
-      <description>2/4 March Lead: Team 4; Blog: Team 2
-Reading assignment: (for everyone)
-TBD</description>
     </item>
     
     <item>
