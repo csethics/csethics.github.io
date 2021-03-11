@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 6: Project Ideas</title>
+      <link>https://csethics.github.io/projectideas/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/projectideas/</guid>
+      <description>Here are the slides for today&amp;rsquo;s class: Project Ideas [PDF].
+Your first deliverable for the project is a Project Idea Proposal due Friday, 19 March (4:59pm). It should include:
+ List of your team members Purpose of your project What you plan to do What you hope the outcome will be.  Please use this discussion post for posting ideas for projects and to find teammates to work with.</description>
+    </item>
     
     <item>
       <title>Week 5 Summary</title>

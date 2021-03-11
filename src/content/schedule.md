@@ -68,6 +68,13 @@ documented here).
 </tr>
 
 <tr>
+<td bgcolor="#FAFAD2">19 March</td>
+<td colspan=3 bgcolor="#FAFAD2">
+Project Idea Proposals Due (4:59pm)
+</td>
+</tr>
+
+<tr>
 <td>8: 23/25 Mar</td>
 <td>1</td><td>4</td>
 <td><a href="/week8">UI Design Ethics</a>
