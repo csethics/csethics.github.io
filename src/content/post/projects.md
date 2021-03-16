@@ -15,6 +15,10 @@ due **Friday, 19 March** (4:59pm). It should include:
 3. What you **plan to do**
 4. What you hope the **outcome** will be.
 
+You can just send this to me by email - a short plaintext email is
+fine that answers these four questions is fine, but feel free to
+include anything else you want feedback on.
+
 Please use [this discussion
 post](https://github.com/csethics/csethics.github.io/discussions/25)
 for posting ideas for projects and to find teammates to work with.
