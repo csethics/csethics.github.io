@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 8: Ethics of User Interface Design</title>
+      <link>https://csethics.github.io/projectideas/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/projectideas/</guid>
+      <description>The readings and discussion post for Week 8 are now posted: Week 8 Readings and Discussion.</description>
+    </item>
     
     <item>
       <title>Week 6: Project Ideas</title>
