@@ -6,10 +6,21 @@
     <description>Recent content on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 7</title>
+      <link>https://csethics.github.io/week7/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week7/</guid>
+      <description>Week 7 (16/18 March): Social Scoring Lead: Team 5
+Required Readings and Viewings (for everyone):
+ Mara Hvistendahl. Inside China&amp;rsquo;s Vast New Experiment in Social Ranking , Wired Magazine, 14 December 2017. (Original Link) Yongxi Chen and Anne Sy Cheung, The Transparent Self under Big Data Profiling: Privacy and Chinese Legislation on the Social Credit System. Journal of Comparative Law. 2017. (SSRN Link) Watch the Black Mirror episode, Nosedive. This is available for subscribers on Netflix.</description>
+    </item>
     
     <item>
       <title>Week 8: Ethics of User Interface Design</title>
@@ -260,17 +271,6 @@ Slides for Week 2 [PDF]</description>
       <guid>https://csethics.github.io/week6/</guid>
       <description>11 March
 Project Ideas </description>
-    </item>
-    
-    <item>
-      <title>Week 7</title>
-      <link>https://csethics.github.io/week7/</link>
-      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/week7/</guid>
-      <description>16/18 March Lead: Team 5; Blog: Team 3
-Reading assignment: (for everyone)
-TBD</description>
     </item>
     
     <item>
