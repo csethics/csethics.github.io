@@ -45,9 +45,10 @@ This doesn't need to be a detailed proposal, but should be enough to
 know you have a team formed and to get some feedback on what you plan
 to do.
 
-- _Project Progress Report_ due *Wednesday, 7 April (4:59pm)**: Update
-  on your project and what you have done so far, and what you plan to
-  do for the remainder. This should be sent as an email to me
+- _Project Progress Report_ due **Wednesday, 7 April (4:59pm)**:
+
+Update on your project and what you have done so far, and what you
+  plan to do for the remainder. This should be sent as an email to me
   (evans@virginia.edu) with all of your teammates cc'd. It can be
   plain text in the email, or an attached PDF, containing at least
   this information:
