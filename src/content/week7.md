@@ -30,7 +30,7 @@ The response prompts focus on the Chen and Cheung article, which will be the foc
 
 **Lead by Team 5**
 
-[Slides for Week 7 [PDF]]
+[Slides for Week 7 [PDF]](TODO)
 
 # Blog Summary
 
