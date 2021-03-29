@@ -36,7 +36,7 @@ Post a response to the readings that does at least one of these options by **10:
 
 **Lead by Team 1**
 
-[Slides for Week 8 [PDF]](TODO)
+[Slides for Week 8 [PDF]](https://www.dropbox.com/s/lzaj1hgy37vwqv0/week8.pdf?dl=0)
 
 # Block Summary
 
