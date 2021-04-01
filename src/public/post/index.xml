@@ -6,10 +6,30 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 10 Readings</title>
+      <link>https://csethics.github.io/week10readings/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week10readings/</guid>
+      <description>The readings for Week 10 (April 6 and 8 on Privacy and Surveillance) are now posted: Week 10 Readings and Discussion.
+Also, remember that your Project Progress Report is due on Wednesday, 7 April (4:59pm). It should be an update on your project and what you have done so far, and what you plan to do for the remainder. This should be sent as an email to me (evans@virginia.edu) with all of your teammates cc&amp;rsquo;d.</description>
+    </item>
+    
+    <item>
+      <title>Week 8 Summary</title>
+      <link>https://csethics.github.io/week8summary/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week8summary/</guid>
+      <description>The blog summary for week 8 is now posted: Week 8.
+Thanks to Team 4 for writing the blog, and to Team 1 for leading!</description>
+    </item>
     
     <item>
       <title>Week 8 Summary</title>
