@@ -38,11 +38,11 @@ Post a response to the readings that does at least one of these options by **10:
 
 [Slides for Week 8 [PDF]](https://www.dropbox.com/s/lzaj1hgy37vwqv0/week8.pdf?dl=0)
 
-# Block Summary
+# Blog Summary
 
 **Team 4**
 
-### Tuesday 31 March
+### Tuesday 23 March
 
 We began our Tuesday class by reviewing the assigned reading and going
 right into discussion questions. We reviewed [_The Good, the Bad and
@@ -176,7 +176,7 @@ guidelines provide a baseline for accessibility because it is
 different across the spectrum for different companies and products;
 similar to how a minimum wage provides a baseline for paying workers.
 
-## Thursday, 25 March
+## Thursday 25 March
 
 For [homework](https://github.com/csethics/csethics.github.io/discussions/30),
 the lead group assigned two activities that tasked students
