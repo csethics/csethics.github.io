@@ -97,8 +97,8 @@ Project Idea Proposals Due (4:59pm)
 
 <tr>
 <td>11: 13 Apr</td>
-<td colspan=2>Dave</td>
-<td><a href="/week11">TBD</a> (Break day 15 Apr)
+<td colspan=2>Guest: [Saiph Savage](http://www.saiph.org/)</td>
+<td><a href="/week11">Crowd Workers</a> (Break day 15 Apr)
 </td>
 </tr>
 
