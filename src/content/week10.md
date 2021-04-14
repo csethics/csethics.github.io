@@ -51,7 +51,7 @@ Also, remember that your Project Progress Report is due on **Wednesday, 7 April 
 
 # Class Meetings
 
-[Slides for Week 10 [PDF]](TODO)
+[Slides for Week 10 [PDF]](https://www.dropbox.com/s/h8f8iuqcuxn75tc/week10.pdf?dl=0)
 
 # Blog Summary
 
