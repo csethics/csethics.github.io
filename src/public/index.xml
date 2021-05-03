@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Week 13 Summary</title>
+      <link>https://csethics.github.io/week13summary/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/week13summary/</guid>
+      <description>The blog summary for week 13 (End-to-end Encryption) is now posted: Week 13.
+Thanks to Team 3 for writing the blog, and to Team 5 for leading!
+This week, the final week of the semester, will be project presentations (see Presentations Schecule).</description>
+    </item>
+    
+    <item>
       <title>Presentations Schedule</title>
       <link>https://csethics.github.io/presentations-schedule/</link>
       <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
@@ -358,10 +369,10 @@ We are going to split up into teams (we will be splitting the class into teams b
       <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://csethics.github.io/week13/</guid>
-      <description>27/29 April
-Lead: Team 5; Blog: Team 3
-Reading assignment: (for everyone)
-TBD</description>
+      <description>Week 13: End-to-end Encryption Lead: Team 5
+Blog: Team 3
+Required Readings and Viewings (for everyone):
+  Harold Abelson, Ross Anderson, Steven M. Bellovin, Josh Benaloh, Matt Blaze, Whitfield Diffie, John Gilmore, Matthew Green, Susan Landau, Peter G. Neumann, Ronald L. Rivest, Jeffrey I. Schiller, Bruce Schneier, Michael A. Specter, Daniel J. Weitzner. Keys under doormats: mandating insecurity by requiring government access to all data and communications. Journal of Cybersecurity.</description>
     </item>
     
     <item>
