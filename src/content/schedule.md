@@ -119,7 +119,7 @@ Project Idea Proposals Due (4:59pm)
 <tr>
 <td>14: 4/6 May</td>
 <td colspan=2>Everyone</td>
-<td><a href="/week14">Project Presentations</a>
+<td><a href="/projects">Project Presentations</a>
 </td>
 </tr>
 
