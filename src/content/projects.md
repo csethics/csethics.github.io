@@ -51,6 +51,10 @@ Hana, Christian, Loryn
 
 Brock Gardner, Zachery Morris, Lauren Ott, Mariah Tighe
 
+<center>
+<a href="https://www.dropbox.com/s/6k2vihgowllffgp/HoosStayingVigilant_Graphics.pdf?dl=0"><img src="/images/hoosvigilant.png" width=80%></a>
+</center>
+
 [InfoGraphics (PDF)](https://www.dropbox.com/s/6k2vihgowllffgp/HoosStayingVigilant_Graphics.pdf?dl=0)  
 [Presentation Slides](https://www.dropbox.com/s/nm405237foknehz/HoosStayingVigilant_Slides.pdf?dl=0)  
 [Report](https://www.dropbox.com/s/weisoqbho8kbp8i/HoosStayingVigilant.pdf?dl=0)
