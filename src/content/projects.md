@@ -43,7 +43,7 @@ Emily Franklin, Kelly Schaefer, Leandra Klein
 
 # Social Media Information Index
 
-Hana, Christian, Loryn
+Hana Nur, Christian Ventura, Loryn Duncombe
 
 [SMII - Social Media Information Index](https://smii.netlify.app/)
 
@@ -68,6 +68,7 @@ Jordan Willis, Saurav Velleleth, Alex Wassel
 </center>
 
 [Project Website](https://csethics.ue.r.appspot.com/)
+[Video Demo](https://drive.google.com/file/d/1B3eaDq878KN7_-49SyOgVR2GU_fg2Sfp/view)
 
 # Ethics and Impact of Virtual Learning
 
