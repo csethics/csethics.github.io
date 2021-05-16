@@ -41,6 +41,8 @@ Apekchha Pradhan, Sophie Rogers, Rickey Guo
 
 Emily Franklin, Kelly Schaefer, Leandra Klein
 
+Report: [_A Survey of Automated Essay Grader Transparency in Education_](https://www.dropbox.com/s/fs01h2e406r4ukx/automatedgrading.pdf?dl=0)
+
 # Social Media Information Index
 
 Hana Nur, Christian Ventura, Loryn Duncombe
