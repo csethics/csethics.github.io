@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Course Evaluations</title>
+      <link>https://csethics.github.io/course-evaluations/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/course-evaluations/</guid>
+      <description>Here is the summary report on the student course evaluations: course-evals.pdf.
+Thanks to everyone who submitted an evaluation, and for the thoughtful comments.</description>
+    </item>
+    
+    <item>
       <title>Projects Posted</title>
       <link>https://csethics.github.io/projectsposted/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
@@ -529,16 +539,6 @@ Below, you can read a preliminary description of the course and about the reason
 Reading assignment: Ian Barbour, Ethics in an Age of Technology
 This is from a 1993 book based on a series of lectures Barbour gave in 1989. Barbour considers three different views of technology: (1) Technology as Liberator, (2) Technology as Threat, and (3) Technology as Instrument of Power.
 Before Wednesday at 9:29pm, post a response in the Discussion Site (see details there on what your response should be).</description>
-    </item>
-    
-    <item>
-      <title>Course Evaluations</title>
-      <link>https://csethics.github.io/course-evaluations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/course-evaluations/</guid>
-      <description>Here is the summary report on the student course evaluations: course-evals.pdf.
-Thanks to everyone who submitted an evaluation, and for the thoughtful comments.</description>
     </item>
     
   </channel>

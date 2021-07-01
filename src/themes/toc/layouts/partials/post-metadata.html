@@ -1,6 +1,6 @@
 <div class="post-metadata">
   <span class="post-date">
-    <time datetime="{{ $.Date }}" itemprop="datePublished">{{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}</time> by {{ $.Params.author }}
+    <time datetime="{{ $.Date }}" itemprop="datePublished">{{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}</time>
   </span>
   {{ if isset $.Params "tags" }}
   {{ $tagsLen := len $.Params.tags }}

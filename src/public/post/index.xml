@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course Evaluations</title>
+      <link>https://csethics.github.io/course-evaluations/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/course-evaluations/</guid>
+      <description>Here is the summary report on the student course evaluations: course-evals.pdf.
+Thanks to everyone who submitted an evaluation, and for the thoughtful comments.</description>
+    </item>
     
     <item>
       <title>Projects Posted</title>
@@ -315,16 +325,6 @@ The semester hasn&amp;rsquo;t started, students in this class will be interested
       <guid>https://csethics.github.io/welcome/</guid>
       <description>This is the course website for &amp;ldquo;Everyday Ethics and Quotidian Quandaries for Computer Scientists&amp;rdquo;, a new University of Virginia course on ethics targeted to undergraduate computer science students that will be offered for the first time in Spring 2021. Scheduled course meetings are Tuesdays and Thursdays, 9:30am – 10:45am, starting on 2 February 2021.
 Below, you can read a preliminary description of the course and about the reason for offering it.</description>
-    </item>
-    
-    <item>
-      <title>Course Evaluations</title>
-      <link>https://csethics.github.io/course-evaluations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://csethics.github.io/course-evaluations/</guid>
-      <description>Here is the summary report on the student course evaluations: course-evals.pdf.
-Thanks to everyone who submitted an evaluation, and for the thoughtful comments.</description>
     </item>
     
   </channel>

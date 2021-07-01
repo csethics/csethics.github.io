@@ -1,5 +1,5 @@
 +++
-date = "30 Jone 2021"
+date = "30 Jun 2021"
 draft = false
 title = "Course Evaluations"
 +++
