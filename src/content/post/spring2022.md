@@ -6,6 +6,7 @@ author = "David Evans"
 slug = "spring2022"
 +++
 
+<strike>
 I am expecting to offer a similar course in Spring 2022, but still
 waiting for decisions from our department administration to be able to
 confirm this and provide more details officially. Although the course
@@ -28,3 +29,7 @@ website.
 
 Once the department has confirmed the course offering, I'll update
 this site with a more formal syllabus for the Spring 2022 course.
+</strike>
+
+Sorry, looks like things have changed again. I'm not sure if this
+course will be offered again, but will update this here when I know more.
