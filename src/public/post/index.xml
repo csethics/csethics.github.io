@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://csethics.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring 2022 Course</title>
+      <link>https://csethics.github.io/spring2022/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://csethics.github.io/spring2022/</guid>
+      <description>I am expecting to offer a similar course in Spring 2022, but still waiting for decisions from our department administration to be able to confirm this and provide more details officially. Although the course is listed as a &amp;ldquo;cs4501&amp;rdquo; in SIS now, it will most likely end up listed as a &amp;ldquo;cs3501&amp;rdquo; course. It will be open to all students, with expected backgound of students entering the course to be familiar enough with computer science and software development to be able to read technical papers and engage in discussions about how we build and evaluate computing systems.</description>
+    </item>
     
     <item>
       <title>Course Evaluations</title>
