@@ -1,273 +1,162 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://csethics.github.io/post/</loc>
-    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://csethics.github.io/spring2022/</loc>
-    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://csethics.github.io/course-evaluations/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://csethics.github.io/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://csethics.github.io/post/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://csethics.github.io/projectsposted/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://csethics.github.io/</loc>
-    <lastmod>2021-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/projects/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week13summary/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/presentations-schedule/</loc>
     <lastmod>2021-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week12summary/</loc>
     <lastmod>2021-04-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week13readings/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week12readings/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week10summary/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week11readings/</loc>
     <lastmod>2021-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week9summary/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week10readings/</loc>
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week8summary/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week7/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week7summary/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/projectideas/</loc>
     <lastmod>2021-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week6/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/projectideas/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week5/</loc>
     <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week5summary/</loc>
     <lastmod>2021-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week67readings/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week4/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week4summary/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week8/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week5readings/</loc>
     <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week3/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week3summary/</loc>
     <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week4readings/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week2summary/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week3assignment/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/scheduleupdate/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week2assignment/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/class2/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week10/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week11/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week12/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week13/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week14/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week2/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week9/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/class1/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/schedule/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/update/</loc>
     <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/notes1/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/resources/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/syllabus/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/form/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/welcome/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/week1/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://csethics.github.io/topics/</loc>
   </url>
-  
 </urlset>

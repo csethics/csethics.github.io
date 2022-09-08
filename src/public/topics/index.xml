@@ -5,10 +5,6 @@
     <link>https://csethics.github.io/topics/</link>
     <description>Recent content in Topics on Everyday Ethics and Quotidian Quandaries for Computer Scientists</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://csethics.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://csethics.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
